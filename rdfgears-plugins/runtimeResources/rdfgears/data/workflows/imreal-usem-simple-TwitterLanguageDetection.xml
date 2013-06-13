@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-TwitterLanguageDetection</id>
+	  <name>TwitterLanguageDetection</name>
+	  <category>imreal-usem-simple</category>
+      <description>The service collects the user's past 200 tweets and determines the language for each one of them. The output lists all observed languages including their frequency.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="40" y="83">
+         <workflowInputPort name="Twitter username"/>
+      </workflowInputList>
+      <network output="calcSimilarity" x="379" y="239">
+         <processor id="calcSimilarity" x="265" y="69">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.TwitterLanguageDetector</config>
+            </function>
+            <inputPort iterate="false" name="username">
+               <source workflowInputPort="Twitter username"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source processor="node_4"/>
+            </inputPort>
+         </processor>
+         <processor id="node_4" x="36" y="185">
+            <function type="constant">
+               <config param="value">""</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

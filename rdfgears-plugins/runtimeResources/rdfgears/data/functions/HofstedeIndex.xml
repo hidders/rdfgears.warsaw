@@ -1,0 +1,19 @@
+<processor label="Hofstede Index" category="Custom Java">
+	<description>
+	This is a custom java function that takes as input a country and a dimension (one of pdi, idv,
+	mas, uai, lto) and returns an integer (the value of the dimension).
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.HofstedeIndex"/>
+		</function>
+		<data iterate="false" name="country" label="Country">
+			<type><var name="country"/></type>
+		</data>
+		<data iterate="false" name="dimension" label="Dimension">
+			<type><var name="dimension"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

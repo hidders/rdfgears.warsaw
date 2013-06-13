@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>1reg</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_33" x="450" y="450">
+         <processor id="node_33" x="596" y="301">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_58"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_58"/>
+            </inputPort>
+         </processor>
+         <processor id="node_58" x="778" y="124">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_57"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_57"/>
+            </inputPort>
+         </processor>
+         <processor id="node_57" x="568" y="127">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_21"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_20"/>
+            </inputPort>
+         </processor>
+         <processor id="node_21" x="390" y="108">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_16"/>
+            </inputPort>
+         </processor>
+         <processor id="node_16" x="168" y="119">
+            <function type="constant">
+               <config param="value">"1"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_20" x="405" y="199">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_17"/>
+            </inputPort>
+         </processor>
+         <processor id="node_17" x="170" y="203">
+            <function type="constant">
+               <config param="value">"2"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

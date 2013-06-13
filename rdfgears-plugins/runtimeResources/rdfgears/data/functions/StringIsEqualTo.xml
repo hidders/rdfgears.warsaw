@@ -1,0 +1,18 @@
+<processor label="Is String equal to" category="Custom Java">
+	<description>
+	This is a custom java function that determines if two strings are equal.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.StringIsEqualTo"/>
+		</function>
+		<data iterate="false" name="value1" label="Value1">
+			<type><var name="value1"/></type>
+		</data>
+		<data iterate="false" name="value2" label="Value2">
+			<type><var name="value2"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

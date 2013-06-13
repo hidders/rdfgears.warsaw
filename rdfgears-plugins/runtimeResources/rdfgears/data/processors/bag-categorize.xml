@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="categorize bag elements" category="Bag functions">
+<description>Apply categorization function to a bag</description>
+<inputs>
+<function type="bag-categorize">
+<param name="categorizeFunction" type="List" label="Categorize Function">
+<source>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.Evaluate" label="Evaluate"/>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement" label="Arbitary Bag Element"/>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.NotNull" label="Not Null" />
+<option value="nl.feliksik.rdfgears.BagTopFunction" label="Bag top function" />
+<option value="workflow:aMashup" label="Workflow Mashup" />
+</source>
+</param>
+<param name="categories" type="Fields" label="Categories"/>
+</function>
+<data name="bag" label="Bag" iterate="false">
+<type>
+<bag>
+<var name="bagType"/>
+</bag>
+</type>
+</data> 
+</inputs>
+<output>
+<type>
+<var name="outputRecord"/> 
+</type>
+</output>
+</processor>
+

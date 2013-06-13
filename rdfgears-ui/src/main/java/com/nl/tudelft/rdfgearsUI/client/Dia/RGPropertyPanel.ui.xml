@@ -1,0 +1,81 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+		.propertyPanel {
+			position:absolute;
+			background: white;
+			right:0;
+			top:0;
+			width:300px;
+			height:100%;
+			border-left: 1px solid #E5E9EC;
+			-webkit-box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+			-moz-box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+			box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+			z-index:10001;
+		}
+		.propertyStack{
+		 /*style the property table here*/
+		 padding-left: 5px;
+		 padding-top : 5px;
+		 padding-right: 5px;
+		}
+		.stackSpacer{
+			height:5px;
+		}
+		.slider{
+			position:absolute;
+			width:20px;
+			height:20px;
+			background-image: url('images/right-grey.png');
+			top:5px;
+			left:5px;
+		}
+		.panelHeader{
+			margin-left:20px;
+			margin-top:5px;
+			padding-left:10px;
+			font-weight:bold;
+		}
+		.headerContainer{
+			width: 100%;
+			height:30px;
+		}
+		.container {
+			position:absolute;
+			top:30px; /*same value as header height*/
+			bottom:50px; /*same value as gpBox height*/
+			width:100%;
+			overflow:auto;
+			padding:0px;
+			border-top: 1px solid #E5E9EC;
+		}
+		.gpBox{
+			bottom:0px;
+			position:absolute;
+			height:50px;
+			width:100%;
+			padding:5px;
+			border-top: 1px solid #E5E9EC;
+		}
+	</ui:style>
+	<g:HTMLPanel styleName="{style.propertyPanel}">
+		<g:HTMLPanel ui:field="headerContainer" styleName="{style.headerContainer}">
+			<g:Label styleName="{style.panelHeader}">Details</g:Label>
+			<g:Label ui:field='slider' styleName="{style.slider}"></g:Label>
+		</g:HTMLPanel>
+		<g:HTMLPanel styleName="{style.container}">
+			<g:FlowPanel ui:field="propertiesContainer" styleName="{style.propertyStack}">
+			<!-- Node properties -->
+				<g:Label>property1 here</g:Label>
+			</g:FlowPanel>
+		</g:HTMLPanel> <!-- 
+		<g:HTMLPanel styleName="{style.gpBox}">
+			<g:Label ui:field="gpBox">help box</g:Label>
+		</g:HTMLPanel> -->
+	</g:HTMLPanel>
+</ui:UiBinder> 

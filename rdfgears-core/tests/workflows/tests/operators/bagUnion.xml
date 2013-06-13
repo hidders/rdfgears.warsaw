@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/operators/bagUnion</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="33" y="27">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_24" x="391" y="242">
+         <processor id="node_24" x="335" y="122">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_14"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_15"/>
+            </inputPort>
+         </processor>
+         <processor id="node_14" x="189" y="112">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_7"/>
+            </inputPort>
+         </processor>
+         <processor id="node_7" x="22" y="122">
+            <function type="constant">
+               <config param="value">"apple"@en</config>
+            </function>
+         </processor>
+         <processor id="node_15" x="191" y="187">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_10"/>
+            </inputPort>
+         </processor>
+         <processor id="node_10" x="22" y="197">
+            <function type="constant">
+               <config param="value">"pear"@en</config>
+            </function>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

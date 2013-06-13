@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/localSelect</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="86" y="86">
+         <workflowInputPort name="graph"/>
+         <workflowInputPort name="diruri"/>
+      </workflowInputList>
+      <network output="node_40" x="508" y="376">
+         <processor id="node_40" x="288" y="82">
+            <function type="sparql">
+               <config param="bindVariables">graph;diruri;</config>
+               <config param="query">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT $diruri ?mov
+WHERE {
+  GRAPH $graph {
+    ?mov &lt;http://dbpedia.org/ontology/director&gt; $diruri.
+  }
+}</config>
+            </function>
+            <inputPort iterate="false" name="graph">
+               <source workflowInputPort="graph"/>
+            </inputPort>
+            <inputPort iterate="false" name="diruri">
+               <source workflowInputPort="diruri"/>
+            </inputPort>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

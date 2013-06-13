@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>nestBag</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_130" x="450" y="450">
+         <processor id="node_130" x="634" y="274">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_129"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_129"/>
+            </inputPort>
+         </processor>
+         <processor id="node_129" x="634" y="159">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_128"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_128"/>
+            </inputPort>
+         </processor>
+         <processor id="node_128" x="484" y="181">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_105"/>
+            </inputPort>
+         </processor>
+         <processor id="node_105" x="214" y="104">
+            <function type="custom-java">
+               <config param="implementation">workflow:16bag</config>
+            </function>
+            <!--<inputPort iterate="false" name="input1"/> -->
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

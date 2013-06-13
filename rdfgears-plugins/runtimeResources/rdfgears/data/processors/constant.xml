@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="Literal/URI" category="Other">
+<description>Literal value or URI, examples:
+&lt;http://dbpedia.org/resource/Delft&gt;
+"John Doe"
+"pomme"@fr
+"1.234"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;
+</description>
+<inputs>
+<function type="constant">
+<param name="value" type="String" label="Literal/URI value"/>
+</function>
+</inputs>
+<output>
+<type>
+<var name="result"/>
+</type>
+</output>
+</processor>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="bag singleton" category="Bag functions">
+<description>Create a bag from a value</description>
+<inputs>
+<function type="bag-singleton"/> 
+<data name="value" iterate="false" label="value">
+<type>
+<var name="input"/>
+</type>
+</data>
+</inputs> 
+<output> 
+<type>
+<bag>
+<var name="input"/>
+</bag>
+</type>
+</output>
+</processor>

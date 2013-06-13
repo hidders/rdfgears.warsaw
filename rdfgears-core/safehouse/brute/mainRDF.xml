@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>brute/mainRDF</id>
+      <description>Runnable silk directors-example</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_94" x="494" y="389">
+         <processor id="node_94" x="474" y="66">
+            <function type="custom-java">
+               <config param="implementation">workflow:silkReduce/findBestMatch</config>
+            </function>
+            <inputPort iterate="false" name="lmdb_bag">
+               <source processor="z_mk_jj"/>
+            </inputPort>
+            <inputPort iterate="true" name="dbpedia">
+               <source processor="z_mk_9k"/>
+            </inputPort>
+         </processor>
+         <processor id="z_mk_jj" x="178" y="21">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;  
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;  
+PREFIX  movie: &lt;http://data.linkedmdb.org/resource/movie/&gt;   
+SELECT DISTINCT  ?dir
+FROM &lt;file:Data/lmdb.n3&gt; 
+WHERE {
+    ?dir rdf:type movie:director .
+} LIMIT 10</config>
+            </function>
+         </processor>
+         <processor id="z_mk_9k" x="181" y="135">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; 
+PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt; 
+SELECT ?mov  
+FROM  &lt;file:Data/dbpedia.n3&gt; WHERE {
+      ?mov rdf:type dbpedia:Film.
+} LIMIT 10</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

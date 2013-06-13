@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>saveLivingstone2</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="16" y="13">
+         <workflowInputPort name="input1"/>
+         <workflowInputPort name="input0"/>
+      </workflowInputList>
+      <network output="node_6" x="401" y="396">
+         <processor id="node_6" x="78" y="254">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbpedia.org/sparql</config>
+               <config param="query">PREFIX dbprop: &lt;http://dbpedia.org/property/&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+SELECT DISTINCT ?disease ?sameDisease  WHERE {
+        ?person a dbpedia:Person.
+        ?person foaf:name ?personName.
+        FILTER(str(?personName)="David Livingstone").
+        ?person dbpedia:deathCause ?disease.
+        ?disease rdfs:label ?label.
+        ?disease owl:sameAs ?sameDisease.
+}</config>
+
+            </function>
+         </processor>
+         <processor id="node_5" x="345" y="44">
+            <function type="filter">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.NotNull</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_47"/>
+            </inputPort>
+         </processor>
+         <processor id="node_47" x="193" y="44">
+            <function type="custom-java">
+               <config param="implementation">workflow:malariaSub</config>
+            </function>
+            <inputPort iterate="true" name="sameAsPair"/>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

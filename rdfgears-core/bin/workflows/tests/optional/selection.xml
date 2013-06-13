@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/optional/selection</id>
+      <description>Determine a similarity value and whether it exceed threshold</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="29" y="181">
+         <workflowInputPort name="mov_dir"/>
+      </workflowInputList>
+      <network output="z_t6_n92" x="374" y="451">
+         <processor id="z_t6_n92" x="796" y="169">
+            <function type="comparator">
+               <config param="operator">OP_GREATER_EQUAL</config>
+            </function>
+            <inputPort iterate="false" name="a">
+               <source processor="z_t6_pa2"/>
+            </inputPort>
+            <inputPort iterate="false" name="b">
+               <source processor="z_t6_kk2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_pa2" x="635" y="96">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.MaxVal2</config>
+            </function>
+            <inputPort iterate="false" name="value1">
+               <source processor="z_t6_vc2"/>
+            </inputPort>
+            <inputPort iterate="false" name="value2">
+               <source processor="z_t6_ph2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_vc2" x="473" y="49">
+            <function type="custom-java">
+               <config param="implementation">nl.feliksik.rdfgears.JaroSimilarityFunction</config>
+            </function>
+            <inputPort iterate="false" name="s1">
+               <source processor="z_t6_fg2"/>
+            </inputPort>
+            <inputPort iterate="false" name="s2">
+               <source processor="z_t6_5f2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_fg2" x="327" y="151">
+            <function type="record-project">
+               <config param="projectField">label</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="z_t6_4h2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_4h2" x="168" y="244">
+            <function type="record-project">
+               <config param="projectField">dbpedia</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="mov_dir"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_5f2" x="331" y="17">
+            <function type="record-project">
+               <config param="projectField">dir_name</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="z_t6_qf2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_qf2" x="170" y="121">
+            <function type="record-project">
+               <config param="projectField">lmdb</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="mov_dir"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_ph2" x="471" y="191">
+            <function type="custom-java">
+               <config param="implementation">nl.feliksik.rdfgears.JaroSimilarityFunction</config>
+            </function>
+            <inputPort iterate="false" name="s1">
+               <source processor="z_t6_vj2"/>
+            </inputPort>
+            <inputPort iterate="false" name="s2">
+               <source processor="z_t6_fg2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_vj2" x="328" y="269">
+            <function type="record-project">
+               <config param="projectField">label</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="z_t6_qf2"/>
+            </inputPort>
+         </processor>
+         <processor id="z_t6_kk2" x="635" y="239">
+            <function type="constant">
+               <config param="value">"0.80"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;</config>
+            </function>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

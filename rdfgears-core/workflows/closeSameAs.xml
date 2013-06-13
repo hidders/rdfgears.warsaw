@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>closeSameAs</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="19" y="49">
+         <workflowInputPort name="sameAsPair"/>
+      </workflowInputList>
+      <network output="node_16" x="604" y="186">
+         <processor id="node_16" x="521" y="7">
+            <function type="sparql">
+               <config param="bindVariables">thing;sameThing;fetchedGraph;</config>
+               <config param="query">PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; 
+CONSTRUCT {
+       $thing ?p1 ?o1.
+       ?s2 ?p2 $thing.
+       ?s3 ?p3 ?o3.
+       ?thing4 ?p4 ?o4.  
+}  WHERE { 
+   GRAPH $fetchedGraph {
+        OPTIONAL { $sameThing ?p1 ?o1.   }
+        OPTIONAL { ?s2 ?p2 $sameThing.  }
+        OPTIONAL { 
+            ?s3 ?p3 ?o3.
+            FILTER ((?s3  != $sameThing) &amp;&amp; (?o3 != $sameThing)).
+        }
+ }
+}</config>
+            </function>
+            <inputPort iterate="false" name="thing">
+               <source processor="node_17"/>
+            </inputPort>
+            <inputPort iterate="false" name="sameThing">
+               <source processor="node_7"/>
+            </inputPort>
+            <inputPort iterate="false" name="fetchedGraph">
+               <source processor="node_1"/>
+            </inputPort>
+         </processor>
+         <processor id="node_17" x="183" y="18">
+            <function type="record-project">
+               <config param="projectField">disease</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="sameAsPair"/>
+            </inputPort>
+         </processor>
+         <processor id="node_7" x="186" y="118">
+            <function type="record-project">
+               <config param="projectField">sameDisease</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="sameAsPair"/>
+            </inputPort>
+         </processor>
+         <processor id="node_1" x="326" y="177">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.FetchRDF</config>
+            </function>
+            <inputPort iterate="false" name="uri">
+               <source processor="node_7"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

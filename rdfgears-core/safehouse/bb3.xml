@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>bb3</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_46" x="450" y="450">
+         <processor id="node_46" x="402" y="137">
+            <function type="custom-java">
+               <config param="implementation">workflow:1sub</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_41"/>
+            </inputPort>
+         </processor>
+         <processor id="node_41" x="154" y="134">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:8890/sparql</config>
+               <config param="query">PREFIX pubchem: &lt;http://chem2bio2rdf.org/pubchem/resource/&gt;select ?gi ?compound_cid FROM &lt;http://chem2bio2rdf.org/pubchem&gt; where {  ?bioassay pubchem:CID ?compound_cid .  ?bioassay pubchem:outcome ?activity .  FILTER (?activity=2) .  ?bioassay pubchem:Score ?score .   FILTER (?score&gt;50) .  ?bioassay pubchem:gi ?gi .}</config>
+            </function>
+         </processor>
+         <processor id="node_19" x="598" y="12">
+            <function type="record-project">
+               <config param="projectField">gene</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_13"/>
+            </inputPort>
+         </processor>
+         <processor id="node_13" x="395" y="8">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:8890/sparql</config>
+               <config param="query">PREFIX drugbank: &lt;http://chem2bio2rdf.org/drugbank/resource/&gt;
+
+select ?gene FROM &lt;http://chem2bio2rdf.org/drugbank&gt; WHERE {
+?drugbank_interaction drugbank:gene ?gene .
+ ?drugbank_interaction drugbank:DBID ?drugbank_drug .
+ ?drugbank_drug drugbank:Generic_Name ?drug_name .
+ FILTER (?drug_name="Dexamethasone") .
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

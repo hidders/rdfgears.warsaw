@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>1sub2</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="record"/>
+      </workflowInputList>
+      <network output="node_38" x="450" y="450">
+         <processor id="node_38" x="781" y="134">
+            <function type="record-create">
+               <config param="fields">gene;compound_cid;</config>
+            </function>
+            <inputPort iterate="true" name="gene">
+               <source processor="node_23"/>
+            </inputPort>
+            <inputPort iterate="false" name="compound_cid">
+               <source processor="node_22"/>
+            </inputPort>
+         </processor>
+         <processor id="node_23" x="528" y="77">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:8890/sparql</config>
+               <config param="bindVariables">gi;</config>
+               <config param="query">PREFIX uniprot: &lt;http://chem2bio2rdf.org/uniprot/resource/&gt;SELECT ?gene FROM &lt;http://chem2bio2rdf.org/uniprot&gt; where{
+ ?uniprot uniprot:gi ?gi .
+ ?uniprot uniprot:geneSymbol ?gene .
+}</config>
+            </function>
+            <inputPort iterate="false" name="gi">
+               <source processor="node_21"/>
+            </inputPort>
+         </processor>
+         <processor id="node_21" x="289" y="83">
+            <function type="record-project">
+               <config param="projectField">gi</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="record"/>
+            </inputPort>
+         </processor>
+         <processor id="node_22" x="293" y="203">
+            <function type="record-project">
+               <config param="projectField">compound_cid</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="record"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

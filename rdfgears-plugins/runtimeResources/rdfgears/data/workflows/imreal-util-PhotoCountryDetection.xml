@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-PhotoCountryDetection</id>
+	  <name>PhotoCountryDetection</name>
+	  <category>imreal-util</category>
+      <description>The service takes a Flickr id (and a Twitter id if available) as input and determines the country each photo was taken in - it is either an estimate (if the photo contains no latitude/longitude) or, if available, the true location is used.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="39" y="41">
+         <workflowInputPort name="Flickr username"/>
+         <workflowInputPort name="Twitter username"/>
+      </workflowInputList>
+      <network output="node_70" x="706" y="480">
+         <processor id="node_70" x="679" y="126">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-takeCountryGuess</config>
+            </function>
+            <inputPort iterate="true" name="enrichedPhotos">
+               <source processor="node_129"/>
+            </inputPort>
+         </processor>
+         <processor id="node_129" x="454" y="99">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-photoAttachCountry</config>
+            </function>
+            <inputPort iterate="true" name="photo">
+               <source processor="calcSimilarity"/>
+            </inputPort>
+         </processor>
+         <processor id="calcSimilarity" x="265" y="69">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.FlickrPhotoLocator</config>
+            </function>
+            <inputPort iterate="false" name="flickrUser">
+               <source workflowInputPort="Flickr username"/>
+            </inputPort>
+            <inputPort iterate="false" name="twitterUser">
+               <source workflowInputPort="Twitter username"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source processor="node_4"/>
+            </inputPort>
+         </processor>
+         <processor id="node_4" x="36" y="185">
+            <function type="constant">
+               <config param="value">""</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

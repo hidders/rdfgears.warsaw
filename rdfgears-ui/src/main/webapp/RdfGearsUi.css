@@ -1,0 +1,443 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+
+#app-container {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	min-width:600px;
+}
+#app-header {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height : 44px;
+	min-width:600px;
+	background: rgb(241,241,241);
+	border-bottom: 1px solid #E5E9EC;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 3px 0 4px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 3px 0 4px;
+	box-shadow: rgba(0, 0, 0, 0.3) 3px 0 4px;
+	z-index:10000;	
+}
+
+#logo-container {
+	position: aboslute;
+	top: 0px;
+	left: 0px;
+	width: 245px;
+	hegiht: 44px;
+	padding-left: 5px;
+	border-right: 2px solid #E9E9E9;
+}
+#menu-container {
+	position: absolute;
+	bottom: 0px;
+	left: 251px;
+	right:0px;	
+}
+#workspace{
+	position:absolute;
+	top:45px;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	min-width:600px;
+	overflow:hidden;
+}
+#canvas{
+	/*background-color: #0e0e0e;*/
+	background: url('images/grid.png');
+	width: 100%;
+	height: 100%;
+}
+canvas, svg {
+	position: absolute;
+	z-index: 500;
+}
+.node{
+	background-color: #fff;
+/**	height:auto;
+	width:75px;
+	display:block;**/
+	border: solid 1px rgb(81, 105, 167);
+	border-radius:5px;
+	moz-border-radius:5px;
+	z-index: 1000;
+}
+
+.nodeActive{
+	z-index: 1001;
+}
+.nodeBorder{
+	border-radius:5px;
+	moz-border-radius:5px;
+	border: solid 2px transparent;
+}
+.nodeBorderActive{
+	border: solid 2px #8080FF;
+}
+.nodeHeader{
+	color: #EEEBEB;
+	background-color:#3048FC;
+	font-size: 88%;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 3px;
+	border-bottom: 1px solid black;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	moz-border-top-left-radius:3px;
+	moz-border-top-right-radius:3px;
+}
+
+.inputNode{
+	color: #EEEBEB;
+	background-color: #F50B3A;
+	font-size: 88%;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 3px;
+	border-bottom: 1px solid black;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	moz-border-top-left-radius:3px;
+	moz-border-top-right-radius:3px;
+}
+
+.outputNode{
+	color: #EEEBEB;
+	background-color: #F50B3A;
+	font-size: 88%;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 3px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	moz-border-top-left-radius:3px;
+	moz-border-top-right-radius:3px;
+	moz-border-bottom-left-radius:3px;
+	moz-border-bottom-right-radius:3px;
+}
+
+.nodeContent{
+	font-size: 90%;
+}
+
+.entry{
+	
+}
+.staticEntry{
+	font-style: italic;
+	font-size:95%;
+}
+.dragHelper{
+	border:2px dotted grey;
+}
+.port{
+	z-index:1002;
+}
+.inputPortInd{
+	border-radius:50%;
+	moz-border-radius:50%;
+	border: 1px solid transparent;
+}
+.inputPortIndBg{
+	background-color: orange;
+}
+.inputPortActive{
+	border: 1px solid #33c735;
+}
+.iterateFlagTrue{
+	background-color: #4F63F5;
+}
+
+.closeButton {
+	background-image: url('images/close-white.png');
+}
+
+.closeButtonActive {
+	background-image: url('images/close-red.png');
+}
+
+.warningButton {
+	background-image: url('images/warning.png');
+}
+
+.warningButtonActive{
+	background-image: url('images/warning-dark.png');
+}
+
+.tabCloseButton{
+    background-image: url('./images/tab-close-white.png');
+}
+
+.tabCloseButton:hover{
+    background-image: url('./images/tab-close-red.png');
+}
+
+.workflowTab{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    moz-border-top-left-radius: 3px;
+    moz-border-top-right-radius: 3px;
+    cursor: default;
+    border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+	border-right: 1px solid #D8D8D8;
+    background-color: #F1F1F1;
+}
+.activeWorkflowTab{
+	background-color: white;
+}
+
+/*property panel*/
+.propertyContainer{
+	border: 1px solid grey;
+	padding: 5px;
+	margin-bottom: 5px;
+	font-size: 85%;
+}
+.propertyLabelContainer {
+	padding: 3px;
+	background-color: #EEE;
+	margin-bottom: 3px;
+}
+.propertyFormContainer{
+	
+}
+.paramFormHelpText{
+	font-size: 11px;
+	padding-top: 3px;
+}
+.queryText{
+	width: 273px;
+	height: 100px;
+}
+.inputString{
+	width: 200px;
+	padding: 2px;
+}
+.addFieldButton:hover{
+	padding: 3px;
+	font-weight: bold;
+	background-color: rgba(238, 238, 238, 0.7);
+	cursor: default;
+}
+
+.addFieldButton{
+	padding: 3px;
+	font-weight: bold;
+	background-color: rgba(238, 238, 238, 0.35);
+	cursor: default;
+}
+.operatorListItem:hover{
+	padding: 1px;
+	background-color: rgba(238, 238, 238, 0.35);
+}
+.operatorListItem{
+	padding: 1px;
+}
+/*navigation panel*/
+.navListCategory{
+	margin-bottom: 5px;
+}
+
+.wfSearchContainer{
+	margin-bottom: 5px;
+}
+
+.wfSearchInputBox{
+	padding: 3px;
+	margin: 2px 2px 2px 0px;
+	width: 190px;
+}
+.searchIconContainer{
+	display: inline;
+}
+.searchIcon{
+	position: absolute;
+	margin-top: 2px;
+}			
+.catArrowExpanded{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	margin-top: 6px;
+	background-image: url('images/expanded-arrow.png');
+}
+
+.catArrowCollapsed {
+	background-image: url('images/collapsed-arrow.png');
+}
+
+.listCatLabel {
+     background: #eee;
+     padding-left:13px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+}
+.popupPanelFormButton{
+	display:inline-block;
+  	text-align:center;
+   	margin-right:5px;
+   	cursor:default;
+   	padding:4px;
+   	border:1px solid #E0E0E7;
+}
+
+.popupPanelFormButton:hover{
+	background-color: #E0E0E7;
+}
+
+.workflowListItem{
+	margin-bottom: 10px;
+}
+
+.workflowListItemLabel{
+	font-size: 95%;
+}
+
+.workflowListItemLabel:hover{
+	font-size: 95%;
+	background-color: rgba(238, 238, 238, 0.5);
+}
+
+.workflowListItemDesc:hover {
+	border: 1px solid #eee;
+}
+
+.workflowListItemDesc{
+	padding-left: 5px;
+	border: 1px solid transparent;
+}
+
+.workflowListItemMenuBar{
+        padding-left: 5px;	
+}
+
+.workflowListItemMenu{
+	display:inline;
+	font-size: 80%;
+	padding-left:3px;
+	padding-right: 3px;
+	margin-right: 2px;
+	border: 1px solid #eee;
+}
+.workflowListItemMenu:hover{
+	display:inline;
+	font-size: 80%;
+	padding-left:3px;
+	padding-right: 3px;
+	margin-right: 2px;
+	border: 1px solid #eee;
+	background: #eee;
+}
+
+.popupPanel{
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/******************/
+.CodeMirror {
+	border-top: 1px solid black; 
+}
+.hidden{
+	display: none;
+}
+.readOnlyTextBox{
+	border: none;
+}
+.unselectable {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+div {
+	display: block;
+}
+
+/*Table*/
+.portTable{
+	margin-bottom: 5px;
+}
+.tCaption{
+	font-weight: bold;
+}
+.tHead{
+	font-weight:bold;
+}
+.rowHead{
+	background: #eee;
+}
+.tableFont{
+	font-size: 95%;
+}
+.tdContent{
+	border-bottom: 1px solid #eee;
+}
+
+/*webkit scrollbar style */
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	height: 30px;
+	display: block;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece  {
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	height: 50px;
+	background-color: #666;
+	border: 1px solid #eee;
+	-webkit-border-radius: 6px;
+}
+/* float clearing for IE6 */
+* html .clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+/*override GWT-Css*/
+.gwt-MenuBarPopup{
+	z-index: 10000;
+}
+.menuBar-horizontal {
+	background: none !important;
+	border: none !important;
+}

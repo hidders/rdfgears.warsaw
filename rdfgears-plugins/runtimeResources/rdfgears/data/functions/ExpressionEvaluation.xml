@@ -1,0 +1,23 @@
+<processor label="Expression Evaluation" category="Custom Java">
+	<description>
+	This is a custom java function that takes as input an JavaScript expression and two parameters
+	that can be used in the expression. The function is responsible to evaluate
+	the expression and return the result.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.ExpressionEvaluation"/>
+		</function>
+		<data iterate="false" name="a" label="A">
+			<type><var name="a"/></type>
+		</data>
+		<data iterate="false" name="b" label="B">
+			<type><var name="b"/></type>
+		</data>
+		<data iterate="false" name="expression" label="Expression">
+			<type><var name="expression"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

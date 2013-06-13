@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+  <servlet> 
+		<servlet-name>RGServiceImpl</servlet-name>
+		<servlet-class>com.nl.tudelft.rdfgearsUI.server.RGServiceImpl</servlet-class> 
+  </servlet>
+   
+  <servlet-mapping> 
+		<servlet-name>RGServiceImpl</servlet-name> 
+		<url-pattern>/RdfGearsUi/RGService</url-pattern> 
+  </servlet-mapping>
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>RdfGearsUi.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

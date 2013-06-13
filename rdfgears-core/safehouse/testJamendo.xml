@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>testJamendo</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_158" x="450" y="450">
+         <processor id="node_158" x="248" y="171">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbtune.org/jamendo/sparql/</config>
+               <config param="query">SELECT ?s ?p ?o 
+WHERE {
+    ?s ?p ?o.
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

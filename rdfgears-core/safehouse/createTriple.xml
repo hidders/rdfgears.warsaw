@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>createTriple</id>
+      <description>Runnable silk directors-example</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="21" y="141">
+         <workflowInputPort name="so"/>
+         <workflowInputPort name="p"/>
+      </workflowInputList>
+      <network output="node_110" x="358" y="250">
+         <processor id="node_110" x="306" y="112">
+            <function type="record-create">
+               <config param="fields">s;p;o;</config>
+            </function>
+            <inputPort iterate="false" name="s">
+               <source processor="node_107"/>
+            </inputPort>
+            <inputPort iterate="false" name="p">
+               <source workflowInputPort="p"/>
+            </inputPort>
+            <inputPort iterate="false" name="o">
+               <source processor="node_108"/>
+            </inputPort>
+         </processor>
+         <processor id="node_107" x="169" y="76">
+            <function type="record-project">
+               <config param="projectField">s</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="so"/>
+            </inputPort>
+         </processor>
+         <processor id="node_108" x="166" y="213">
+            <function type="record-project">
+               <config param="projectField">o</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="so"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

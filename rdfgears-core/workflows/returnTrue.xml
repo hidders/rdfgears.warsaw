@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>returnTrue</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_58" x="383" y="335">
+         <processor id="node_58" x="466" y="107">
+            <function type="record-project">
+               <config param="projectField">true</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="node_48"/>
+            </inputPort>
+         </processor>
+         <processor id="node_48" x="275" y="92">
+            <function type="record-create">
+               <config param="fields">field_name;true;</config>
+            </function>
+            <inputPort iterate="false" name="field_name">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+            <inputPort iterate="false" name="true">
+               <source processor="node_59"/>
+            </inputPort>
+         </processor>
+         <processor id="node_59" x="122" y="207">
+            <function type="constant">
+               <config param="value">True</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

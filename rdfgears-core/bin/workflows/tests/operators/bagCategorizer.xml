@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/operators/bagCategorizer</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="33" y="27">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_4" x="394" y="119">
+         <processor id="node_4" x="474" y="200">
+            <function type="bag-categorize">
+               <config param="categorizeFunction">nl.tudelft.rdfgears.rgl.function.standard.Identity</config>
+               <config param="categories">duplicates;strings;a;doesnt_occur;</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_5"/>
+            </inputPort>
+         </processor>
+         <processor id="node_5" x="286" y="256">
+            <function type="custom-java">
+               <config param="implementation">nl.feliksik.rdfgears.SplitString</config>
+            </function>
+            <inputPort iterate="false" name="string">
+               <source processor="node_3"/>
+            </inputPort>
+            <inputPort iterate="false" name="delimiter">
+               <source processor="node_8"/>
+            </inputPort>
+         </processor>
+         <processor id="node_3" x="84" y="279">
+            <function type="constant">
+               <config param="value">"this;is;a;colon;separated;list;of;strings;with;duplicates;it;is;composed;of;strings;with;duplicates;many;duplicates"</config>
+            </function>
+         </processor>
+         <processor id="node_8" x="84" y="348">
+            <function type="constant">
+               <config param="value">";"</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,2814 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Apichatpong_Weerasethakul">
+    <rdfs:label xml:lang="de">Apichatpong Weerasethakul</rdfs:label>
+    <rdfs:label xml:lang="es">Apichatpong Weerasethakul</rdfs:label>
+    <rdfs:label xml:lang="pl">Apichatpong Weerasethakul</rdfs:label>
+    <rdfs:label xml:lang="en">Apichatpong Weerasethakul</rdfs:label>
+    <rdfs:label xml:lang="fr">Apichatpong Weerasethakul</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Four_Horsemen_of_the_Apocalypse_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rex_Ingram_%28director%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Haunted_House_%281921_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Signs_of_Life_%281968_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/College_%281927_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/James_W._Horne"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Action_in_the_North_Atlantic">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mudh_Mudh_Ke_Na_Dekkh_Mudh_Mudh_Ke">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Seema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Barry_Sonnenfeld">
+    <rdfs:label xml:lang="ja">バリー・ソネンフェルド</rdfs:label>
+    <rdfs:label xml:lang="es">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="de">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="nn">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="pl">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="pt">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="sv">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="nl">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="en">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="it">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="fi">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="fr">Barry Sonnenfeld</rdfs:label>
+    <rdfs:label xml:lang="ru">Зонненфельд, Барри</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I_Was_a_Male_War_Bride">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bad_Timing">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Nicolas_Roeg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Leo_McCarey">
+    <rdfs:label xml:lang="ja">レオ・マッケリー</rdfs:label>
+    <rdfs:label xml:lang="es">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="sv">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="nn">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="pl">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="de">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="pt">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="it">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="en">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="fi">Leo McCarey</rdfs:label>
+    <rdfs:label xml:lang="fr">Leo McCarey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Pelle_the_Conqueror">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bille_August"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_Crichton">
+    <rdfs:label xml:lang="ja">マイケル・クライトン</rdfs:label>
+    <rdfs:label xml:lang="ru">Крайтон, Майкл</rdfs:label>
+    <rdfs:label xml:lang="zh">迈克尔·克莱顿</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/There%27s_Something_About_Mary">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bobby_Farrelly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dahan_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rituparno_Ghosh"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/In_Celebration">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lindsay_Anderson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Die_Hard_%28franchise%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Renny_Harlin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jonathan_Frakes">
+    <rdfs:label xml:lang="ru">Фрейкс, Джонатан</rdfs:label>
+    <rdfs:label xml:lang="ja">ジョナサン・フレイクス</rdfs:label>
+    <rdfs:label xml:lang="en">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="de">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="nl">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="nn">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="sv">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="pt">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="it">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="fi">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="pl">Jonathan Frakes</rdfs:label>
+    <rdfs:label xml:lang="fr">Jonathan Frakes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Kingdom_of_Heaven_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Ridley_Scott"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Road_to_Yesterday">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Squaw_Man_%281914_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Real_Genius">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Martha_Coolidge"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Orchestra_Rehearsal">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Federico_Fellini"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sour_Grapes_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Larry_David"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/La_C%C3%A9r%C3%A9monie">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claude_Chabrol"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Georgia_%282010_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Renny_Harlin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A.K._%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Chris_Marker"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Badri">
+    <rdfs:label xml:lang="en">Badri</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/All_That_Heaven_Allows">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Douglas_Sirk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nightbreed">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Clive_Barker"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Greg_Berlanti">
+    <rdfs:label xml:lang="en">Greg Berlanti</rdfs:label>
+    <rdfs:label xml:lang="pt">Greg Berlanti</rdfs:label>
+    <rdfs:label xml:lang="fr">Greg Berlanti</rdfs:label>
+    <rdfs:label xml:lang="it">Greg Berlanti</rdfs:label>
+    <rdfs:label xml:lang="de">Greg Berlanti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ossessione">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Luchino_Visconti"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Five_Days_One_Summer">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fred_Zinnemann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Reap_the_Wild_Wind">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Touch_of_Love_%281969_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Waris_Hussein"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/House_of_Fools_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrei_Konchalovsky"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Happy_Thieves">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Marshall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Milky_Way_%281936_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Dawn">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rosencrantz_%26_Guildenstern_Are_Dead_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tom_Stoppard"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Buffet_froid">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bertrand_Blier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Lynch">
+    <rdfs:label xml:lang="ja">デヴィッド・リンチ</rdfs:label>
+    <rdfs:label xml:lang="pl">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="de">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="sv">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="fi">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="fr">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="pt">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="en">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="nn">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="it">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="es">David Lynch</rdfs:label>
+    <rdfs:label xml:lang="nl">David Lynch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Satan_Never_Sleeps">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cheaper_by_the_Dozen_2">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Adam_Shankman"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Honky_Tonk_%281929_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Hatful_of_Rain">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fred_Zinnemann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cecil_B._DeMille">
+    <rdfs:label xml:lang="de">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="it">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="ru">Де Милль, Сесиль Блаунт</rdfs:label>
+    <rdfs:label xml:lang="pt">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="en">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="fr">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="es">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="pl">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="fi">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="sv">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="nl">Cecil B. DeMille</rdfs:label>
+    <rdfs:label xml:lang="ja">セシル・B・デミル</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/8%C2%BD_Women">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Peter_Greenaway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Camera_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Cronenberg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Wonder_Boys_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Curtis_Hanson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Maradona_by_Kusturica">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Emir_Kusturica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/An_Image_of_the_Past">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Primrose_Path_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Gregory_La_Cava"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Free_Jimmy">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Christopher_Nielsen"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Brian_G._Hutton">
+    <rdfs:label xml:lang="pl">Brian G. Hutton</rdfs:label>
+    <rdfs:label xml:lang="es">Brian G. Hutton</rdfs:label>
+    <rdfs:label xml:lang="en">Brian G. Hutton</rdfs:label>
+    <rdfs:label xml:lang="fr">Brian G. Hutton</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Front_Page_%281931_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lewis_Milestone"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Wolfgang_Petersen">
+    <rdfs:label xml:lang="ru">Петерсен, Вольфганг</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Twentieth_Century_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stage_Door">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Gregory_La_Cava"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Paul_Auster">
+    <rdfs:label xml:lang="ja">ポール・オースター</rdfs:label>
+    <rdfs:label xml:lang="fr">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="nl">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="fi">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="pt">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="it">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="ru">Остер, Пол Бенджамин</rdfs:label>
+    <rdfs:label xml:lang="nn">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="sv">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="pl">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="en">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="de">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="es">Paul Auster</rdfs:label>
+    <rdfs:label xml:lang="zh">保羅·奧斯特</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Affairs_of_Cellini">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Gregory_La_Cava"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Spinning_Boris">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Roger_Spottiswoode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Damned_%281969_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Luchino_Visconti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Les_Bonnes_Femmes">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claude_Chabrol"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Takashi_Koizumi">
+    <rdfs:label xml:lang="ja">小泉堯史</rdfs:label>
+    <rdfs:label xml:lang="fr">Takashi Koizumi</rdfs:label>
+    <rdfs:label xml:lang="en">Takashi Koizumi</rdfs:label>
+    <rdfs:label xml:lang="pl">Takashi Koizumi</rdfs:label>
+    <rdfs:label xml:lang="fi">Takashi Koizumi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Scary_Movie">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Keenen_Ivory_Wayans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Virginia_City_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Burned_Hand">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Fighting_Sullivans">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Woyzeck_%281979_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Level_Five_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Chris_Marker"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Espionage_Agent">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/George_Marshall">
+    <rdfs:label xml:lang="zh">乔治·卡特莱特·马歇尔</rdfs:label>
+    <rdfs:label xml:lang="pt">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="fi">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="it">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="nn">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="es">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="pl">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="ru">Маршалл, Джордж Кэтлетт</rdfs:label>
+    <rdfs:label xml:lang="en">George Marshall</rdfs:label>
+    <rdfs:label xml:lang="de">George C. Marshall</rdfs:label>
+    <rdfs:label xml:lang="sv">George C. Marshall</rdfs:label>
+    <rdfs:label xml:lang="fr">George Marshall (général)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Larry_David">
+    <rdfs:label xml:lang="fr">Larry David</rdfs:label>
+    <rdfs:label xml:lang="de">Larry David</rdfs:label>
+    <rdfs:label xml:lang="sv">Larry David</rdfs:label>
+    <rdfs:label xml:lang="pl">Larry David</rdfs:label>
+    <rdfs:label xml:lang="it">Larry David</rdfs:label>
+    <rdfs:label xml:lang="en">Larry David</rdfs:label>
+    <rdfs:label xml:lang="fi">Larry David</rdfs:label>
+    <rdfs:label xml:lang="nl">Larry David</rdfs:label>
+    <rdfs:label xml:lang="es">Larry David</rdfs:label>
+    <rdfs:label xml:lang="pt">Larry David</rdfs:label>
+    <rdfs:label xml:lang="nn">Larry David</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dr._Moreau%27s_House_of_Pain">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Storytelling_Giant">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jim_Jarmusch"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hawaii_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Roy_Hill"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Prospero%27s_Books">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Peter_Greenaway"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Flickering_Lights">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Anders_Thomas_Jensen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Billy_Wilder">
+    <rdfs:label xml:lang="zh">比利·懷德</rdfs:label>
+    <rdfs:label xml:lang="ru">Уайлдер, Билли</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Richard_Dembo">
+    <rdfs:label xml:lang="en">Richard Dembo</rdfs:label>
+    <rdfs:label xml:lang="de">Richard Dembo</rdfs:label>
+    <rdfs:label xml:lang="fr">Richard Dembo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rex_Ingram_%28director%29">
+    <rdfs:label xml:lang="en">Rex Ingram (director)</rdfs:label>
+    <rdfs:label xml:lang="fr">Rex Ingram (réalisateur)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sunset_Boulevard_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Who%27s_Minding_the_Mint%3F">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Morris"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Karthauzer">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Homicide_%281991_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Mamet"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Bolshevik">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Chris_Marker"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Story_of_a_Story">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Shane_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Stevens"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Harry_Potter_and_the_Prisoner_of_Azkaban_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfonso_Cuar%C3%B3n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Long_Kiss_Goodnight">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Renny_Harlin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jesus%27_Son">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alison_Maclean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Warren_Beatty">
+    <rdfs:label xml:lang="zh">沃伦·比蒂</rdfs:label>
+    <rdfs:label xml:lang="pt">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="fi">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="it">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="pl">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="fr">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="nl">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="en">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="de">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="nn">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="sv">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="es">Warren Beatty</rdfs:label>
+    <rdfs:label xml:lang="ja">ウォーレン・ベイティ</rdfs:label>
+    <rdfs:label xml:lang="ru">Битти, Уоррен</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Raphael_Nadjari">
+    <rdfs:label xml:lang="en">Raphael Nadjari</rdfs:label>
+    <rdfs:label xml:lang="fr">Raphaël Nadjari</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bahman_Kiarostami">
+    <rdfs:label xml:lang="en">Bahman Kiarostami</rdfs:label>
+    <rdfs:label xml:lang="fr">Bahman Kiarostami</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Knight%27s_Tale">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Brian_Helgeland"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Fog_of_War">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Errol_Morris"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Shockproof">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Douglas_Sirk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cry_Freetown">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Sorious_Samura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Curtis_Hanson">
+    <rdfs:label xml:lang="ja">カーティス・ハンソン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Addams_Family_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Barry_Sonnenfeld"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mikhail_Vartanov">
+    <rdfs:label xml:lang="ru">Вартанов, Михаил</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dollman_vs._Demonic_Toys">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tod_Browning">
+    <rdfs:label xml:lang="it">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="pt">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="sv">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="fr">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="en">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="es">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="pl">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="de">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="nl">Tod Browning</rdfs:label>
+    <rdfs:label xml:lang="ja">トッド・ブラウニング</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/When_Father_Was_Away_on_Business">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Emir_Kusturica"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Andrzej_%C5%BBu%C5%82awski">
+    <rdfs:label xml:lang="ja">アンジェイ・ズラウスキー</rdfs:label>
+    <rdfs:label xml:lang="ru">Жулавский, Анджей</rdfs:label>
+    <rdfs:label xml:lang="nl">Andrzej Zulawski</rdfs:label>
+    <rdfs:label xml:lang="pt">Andrzej Zulawski</rdfs:label>
+    <rdfs:label xml:lang="it">Andrzej Żuławski</rdfs:label>
+    <rdfs:label xml:lang="fi">Andrzej Żuławski</rdfs:label>
+    <rdfs:label xml:lang="pl">Andrzej Żuławski</rdfs:label>
+    <rdfs:label xml:lang="fr">Andrzej Żuławski</rdfs:label>
+    <rdfs:label xml:lang="en">Andrzej Żuławski</rdfs:label>
+    <rdfs:label xml:lang="de">Andrzej Żuławski</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Voyage_to_Cythera">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Theodoros_Angelopoulos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tony_Gatlif">
+    <rdfs:label xml:lang="ja">トニー・ガトリフ</rdfs:label>
+    <rdfs:label xml:lang="it">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="pt">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="pl">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="nn">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="ru">Тони Гатлиф</rdfs:label>
+    <rdfs:label xml:lang="es">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="en">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="fr">Tony Gatlif</rdfs:label>
+    <rdfs:label xml:lang="de">Tony Gatlif</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Spider%27s_Stratagem">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bernardo_Bertolucci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Body_and_Soul_%281931_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfred_Santell"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stranger_Than_Paradise">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jim_Jarmusch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I_Wonder_Who%27s_Kissing_Her_Now_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jerzy_Skolimowski">
+    <rdfs:label xml:lang="pl">Jerzy Skolimowski</rdfs:label>
+    <rdfs:label xml:lang="zh">傑齊·史柯里莫斯基</rdfs:label>
+    <rdfs:label xml:lang="fi">Jerzy Skolimowski</rdfs:label>
+    <rdfs:label xml:lang="it">Jerzy Skolimowski</rdfs:label>
+    <rdfs:label xml:lang="de">Jerzy Skolimowski</rdfs:label>
+    <rdfs:label xml:lang="en">Jerzy Skolimowski</rdfs:label>
+    <rdfs:label xml:lang="ru">Сколимовский, Ежи</rdfs:label>
+    <rdfs:label xml:lang="fr">Jerzy Skolimowski</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Clockstoppers">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jonathan_Frakes"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Odyssey_%28TV_miniseries%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrei_Konchalovsky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vengo_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tony_Gatlif"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Wanted_%282008_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Timur_Bekmambetov"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Luchino_Visconti">
+    <rdfs:label xml:lang="zh">盧奇諾·維斯孔蒂</rdfs:label>
+    <rdfs:label xml:lang="sv">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="fr">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="fi">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="it">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="nl">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="pl">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="pt">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="en">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="de">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="es">Luchino Visconti</rdfs:label>
+    <rdfs:label xml:lang="ru">Висконти, Лукино</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/12_Rounds_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Renny_Harlin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Vagabond_King_%281956_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jack_Hulbert">
+    <rdfs:label xml:lang="es">Jack Hulbert</rdfs:label>
+    <rdfs:label xml:lang="fr">Jack Hulbert</rdfs:label>
+    <rdfs:label xml:lang="en">Jack Hulbert</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lucky_Transfer">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Turner_%26_Hooch">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Roger_Spottiswoode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Song_Is_Born">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Belly_of_an_Architect">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Peter_Greenaway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stolen_Holiday">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Siberiade">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrei_Konchalovsky"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bobby_Farrelly">
+    <rdfs:label xml:lang="de">Bobby Farrelly</rdfs:label>
+    <rdfs:label xml:lang="sv">Bobby Farrelly</rdfs:label>
+    <rdfs:label xml:lang="en">Bobby Farrelly</rdfs:label>
+    <rdfs:label xml:lang="pl">Bobby Farrelly</rdfs:label>
+    <rdfs:label xml:lang="es">Bobby Farrelly</rdfs:label>
+    <rdfs:label xml:lang="pt">Bobby Farrelly</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Keenen_Ivory_Wayans">
+    <rdfs:label xml:lang="fi">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="de">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="sv">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="en">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="pt">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="nl">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="fr">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="it">Keenen Ivory Wayans</rdfs:label>
+    <rdfs:label xml:lang="pl">Keenen Ivory Wayans</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cheryl_Hines">
+    <rdfs:label xml:lang="en">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="sv">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="nl">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="fr">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="pt">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="de">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="es">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="pl">Cheryl Hines</rdfs:label>
+    <rdfs:label xml:lang="it">Cheryl Hines</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Witches_%281990_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Nicolas_Roeg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lloyd_Bacon">
+    <rdfs:label xml:lang="fr">Lloyd Bacon</rdfs:label>
+    <rdfs:label xml:lang="de">Lloyd Bacon</rdfs:label>
+    <rdfs:label xml:lang="en">Lloyd Bacon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/San_Quentin_%281937_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Convict_13">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sunshine_%281999_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Istv%C3%A1n_Szab%C3%B3"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Buster_Keaton">
+    <rdfs:label xml:lang="zh">巴斯特·基頓</rdfs:label>
+    <rdfs:label xml:lang="sv">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="it">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="fr">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="de">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="pl">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="en">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="es">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="pt">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="fi">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="nn">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="nl">Buster Keaton</rdfs:label>
+    <rdfs:label xml:lang="ru">Китон, Бастер</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Deciding_Kiss">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Turin_Horse">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/B%C3%A9la_Tarr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Under_Two_Flags_%281922_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Howard_Hawks">
+    <rdfs:label xml:lang="pl">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="es">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="fi">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="ru">Хоукс, Говард</rdfs:label>
+    <rdfs:label xml:lang="zh">霍華·霍克斯</rdfs:label>
+    <rdfs:label xml:lang="ja">ハワード・ホークス</rdfs:label>
+    <rdfs:label xml:lang="de">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="it">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="sv">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="nl">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="fr">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="pt">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="en">Howard Hawks</rdfs:label>
+    <rdfs:label xml:lang="nn">Howard Hawks</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Max_Allan_Collins">
+    <rdfs:label xml:lang="nl">Max Allan Collins</rdfs:label>
+    <rdfs:label xml:lang="fr">Max Allan Collins</rdfs:label>
+    <rdfs:label xml:lang="en">Max Allan Collins</rdfs:label>
+    <rdfs:label xml:lang="de">Max Allan Collins</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Children_of_Nature">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fri%C3%B0rik_%C3%9E%C3%B3r_Fri%C3%B0riksson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Trevor_Nunn">
+    <rdfs:label xml:lang="nn">Trevor Nunn</rdfs:label>
+    <rdfs:label xml:lang="it">Trevor Nunn</rdfs:label>
+    <rdfs:label xml:lang="es">Trevor Nunn</rdfs:label>
+    <rdfs:label xml:lang="en">Trevor Nunn</rdfs:label>
+    <rdfs:label xml:lang="sv">Trevor Nunn</rdfs:label>
+    <rdfs:label xml:lang="fr">Trevor Nunn</rdfs:label>
+    <rdfs:label xml:lang="de">Trevor Nunn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Besieged_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bernardo_Bertolucci"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Douglas_Sirk">
+    <rdfs:label xml:lang="en">Douglas Sirk</rdfs:label>
+    <rdfs:label xml:lang="de">Douglas Sirk</rdfs:label>
+    <rdfs:label xml:lang="fi">Douglas Sirk</rdfs:label>
+    <rdfs:label xml:lang="pt">Douglas Sirk</rdfs:label>
+    <rdfs:label xml:lang="ja">ダグラス・サーク</rdfs:label>
+    <rdfs:label xml:lang="zh">道格拉斯·瑟克</rdfs:label>
+    <rdfs:label xml:lang="it">Douglas Sirk</rdfs:label>
+    <rdfs:label xml:lang="fr">Douglas Sirk</rdfs:label>
+    <rdfs:label xml:lang="es">Douglas Sirk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Laurence_Olivier">
+    <rdfs:label xml:lang="pt">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="de">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="it">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="zh">劳伦斯·奥利维尔</rdfs:label>
+    <rdfs:label xml:lang="ja">ローレンス・オリヴィエ</rdfs:label>
+    <rdfs:label xml:lang="nl">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="pl">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="es">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="en">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="fr">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="nn">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="fi">Laurence Olivier</rdfs:label>
+    <rdfs:label xml:lang="sv">Laurence Olivier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Erik_the_Viking">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Terry_Jones"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Y_tu_mam%C3%A1_tambi%C3%A9n">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfonso_Cuar%C3%B3n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rabbits_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Lynch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nicolas_Roeg">
+    <rdfs:label xml:lang="fr">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="de">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="es">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="nl">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="fi">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="en">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="pl">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="it">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="pt">Nicolas Roeg</rdfs:label>
+    <rdfs:label xml:lang="ru">Роуг, Николас</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nancy_Drew_%282007_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrew_Fleming"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Emir_Kusturica">
+    <rdfs:label xml:lang="zh">艾米爾·庫斯杜力卡</rdfs:label>
+    <rdfs:label xml:lang="es">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="it">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="nl">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="en">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="fi">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="fr">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="sv">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="nn">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="ja">エミール・クストリッツァ</rdfs:label>
+    <rdfs:label xml:lang="pt">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="de">Emir Kusturica</rdfs:label>
+    <rdfs:label xml:lang="pl">Emir Kusturica</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ball_of_Fire">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Walk_on_the_Moon">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tony_Goldwyn"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ballet_M%C3%A9canique">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fernand_L%C3%A9ger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hair_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Milo%C5%A1_Forman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Invasion_of_the_Body_Snatchers_%281978_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Philip_Kaufman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_Curtiz">
+    <rdfs:label xml:lang="zh">麥可·寇蒂斯</rdfs:label>
+    <rdfs:label xml:lang="pt">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="ja">マイケル・カーティス</rdfs:label>
+    <rdfs:label xml:lang="ru">Майкл Кёртис</rdfs:label>
+    <rdfs:label xml:lang="de">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="sv">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="fr">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="pl">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="en">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="it">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="es">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="nl">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="fi">Michael Curtiz</rdfs:label>
+    <rdfs:label xml:lang="nn">Michael Curtiz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/London_After_Midnight_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Erik_Balling">
+    <rdfs:label xml:lang="de">Erik Balling</rdfs:label>
+    <rdfs:label xml:lang="en">Erik Balling</rdfs:label>
+    <rdfs:label xml:lang="sv">Erik Balling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Star_Trek:_First_Contact">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jonathan_Frakes"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fool%27s_Paradise_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Good_and_Evil_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rambling_Rose_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Martha_Coolidge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sergei_Parajanov">
+    <rdfs:label xml:lang="es">Sergéi Paradzhánov</rdfs:label>
+    <rdfs:label xml:lang="pl">Siergiej Paradżanow</rdfs:label>
+    <rdfs:label xml:lang="ru">Параджанов, Сергей Иосифович</rdfs:label>
+    <rdfs:label xml:lang="fr">Sergueï Paradjanov</rdfs:label>
+    <rdfs:label xml:lang="it">Sergej Paradžanov</rdfs:label>
+    <rdfs:label xml:lang="ja">セルゲイ・パラジャーノフ</rdfs:label>
+    <rdfs:label xml:lang="en">Sergei Parajanov</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Wild_Seed_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Brian_G._Hutton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fast%2C_Cheap_and_Out_of_Control">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Errol_Morris"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Charles_Band">
+    <rdfs:label xml:lang="en">Charles Band</rdfs:label>
+    <rdfs:label xml:lang="de">Charles Band</rdfs:label>
+    <rdfs:label xml:lang="it">Charles Band</rdfs:label>
+    <rdfs:label xml:lang="fr">Charles Band (réalisateur)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Philip_Kaufman">
+    <rdfs:label xml:lang="ru">Кауфман, Филип</rdfs:label>
+    <rdfs:label xml:lang="ja">フィリップ・カウフマン</rdfs:label>
+    <rdfs:label xml:lang="pt">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="it">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="de">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="es">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="en">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="sv">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="fi">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="pl">Philip Kaufman</rdfs:label>
+    <rdfs:label xml:lang="fr">Philip Kaufman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Darkened_Room">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Lynch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/In_Her_Shoes_%282005_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Curtis_Hanson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rain_%281932_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lewis_Milestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/One_Good_Turn_%281931_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/James_W._Horne"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I%27m_Gonna_Git_You_Sucka">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Keenen_Ivory_Wayans"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Octobre">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Pierre_Falardeau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Gregory_La_Cava">
+    <rdfs:label xml:lang="fr">Gregory La Cava</rdfs:label>
+    <rdfs:label xml:lang="it">Gregory La Cava</rdfs:label>
+    <rdfs:label xml:lang="fi">Gregory La Cava</rdfs:label>
+    <rdfs:label xml:lang="de">Gregory La Cava</rdfs:label>
+    <rdfs:label xml:lang="en">Gregory La Cava</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lewis_Milestone">
+    <rdfs:label xml:lang="nl">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="es">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="ja">ルイス・マイルストン</rdfs:label>
+    <rdfs:label xml:lang="de">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="nn">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="sv">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="pl">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="pt">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="fi">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="it">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="en">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="fr">Lewis Milestone</rdfs:label>
+    <rdfs:label xml:lang="ru">Майлстоун, Льюис</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Abahoman">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rituparno_Ghosh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dangerous_Moves">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Richard_Dembo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Elstree_Calling">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jack_Hulbert"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Long_Fliv_the_King">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Scanners">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Cronenberg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lukas_Moodysson">
+    <rdfs:label xml:lang="en">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="pt">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="de">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="es">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="nl">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="nn">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="it">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="fi">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="sv">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="pl">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="fr">Lukas Moodysson</rdfs:label>
+    <rdfs:label xml:lang="ja">ルーカス・ムーディソン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Kid_Galahad_%281937_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Paul_Newman">
+    <rdfs:label xml:lang="ru">Ньюман, Пол</rdfs:label>
+    <rdfs:label xml:lang="ja">ポール・ニューマン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Where_the_Green_Ants_Dream">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Little_Princess_%281995_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfonso_Cuar%C3%B3n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Shadows_of_Forgotten_Ancestors">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Sergei_Parajanov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Boy_and_His_Shoe">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfonso_Cuar%C3%B3n"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Man_on_the_Moon_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Milo%C5%A1_Forman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hard_Luck_%281921_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Things_Change">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Mamet"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Here_Comes_the_Navy">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alf_Sj%C3%B6berg">
+    <rdfs:label xml:lang="fr">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="fi">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="it">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="es">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="en">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="pt">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="nn">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="ja">アルフ・シェーベルイ</rdfs:label>
+    <rdfs:label xml:lang="ru">Шёберг, Альф</rdfs:label>
+    <rdfs:label xml:lang="pl">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="de">Alf Sjöberg</rdfs:label>
+    <rdfs:label xml:lang="sv">Alf Sjöberg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/O_Lucky_Man%21">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lindsay_Anderson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Pygmalion_%281938_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leslie_Howard_%28actor%29"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Donald_Crisp">
+    <rdfs:label xml:lang="pl">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="de">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="es">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="fi">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="it">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="nl">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="fr">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="en">Donald Crisp</rdfs:label>
+    <rdfs:label xml:lang="nn">Donald Crisp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Cronenberg">
+    <rdfs:label xml:lang="ru">Кроненберг, Дэвид</rdfs:label>
+    <rdfs:label xml:lang="fr">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="it">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="es">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="fi">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="en">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="de">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="sv">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="pl">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="nn">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="nl">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="pt">David Cronenberg</rdfs:label>
+    <rdfs:label xml:lang="ja">デヴィッド・クローネンバーグ</rdfs:label>
+    <rdfs:label xml:lang="zh">大衛·柯能堡</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Steamroller_and_the_Violin">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrei_Tarkovsky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Night_of_the_Hunter_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Laughton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Private_Confessions">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Liv_Ullmann"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Dark_Glow_of_the_Mountains">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/No_One_Will_Play_with_Me">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Forbidden_Nights">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Waris_Hussein"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Woman_from_Warren%27s">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Grizzly_Man">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Parasite_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Eugen_Schuhmacher">
+    <rdfs:label xml:lang="en">Eugen Schuhmacher</rdfs:label>
+    <rdfs:label xml:lang="fr">Eugen Schuhmacher</rdfs:label>
+    <rdfs:label xml:lang="de">Eugen Schuhmacher</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sabrina_%281954_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sex_and_the_City_2">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Patrick_King"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Twelfth_Night:_Or_What_You_Will_%281996_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Trevor_Nunn"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nostalghia">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrei_Tarkovsky"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Adventures_of_Robin_Hood_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mystery_Monsters">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chokher_Bali_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rituparno_Ghosh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Allez_Oop">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/She_Married_Her_Boss">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Gregory_La_Cava"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/How_Much_Wood_Would_a_Woodchuck_Chuck_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nan_of_Music_Mountain">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Violette_Nozi%C3%A8re">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claude_Chabrol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bertrand_Blier">
+    <rdfs:label xml:lang="it">Bertrand Blier</rdfs:label>
+    <rdfs:label xml:lang="de">Bertrand Blier</rdfs:label>
+    <rdfs:label xml:lang="fi">Bertrand Blier</rdfs:label>
+    <rdfs:label xml:lang="nl">Bertrand Blier</rdfs:label>
+    <rdfs:label xml:lang="pt">Bertrand Blier</rdfs:label>
+    <rdfs:label xml:lang="en">Bertrand Blier</rdfs:label>
+    <rdfs:label xml:lang="fr">Bertrand Blier</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Du%C5%A1an_Kova%C4%8Devi%C4%87">
+    <rdfs:label xml:lang="pt">Dušan Kovačević</rdfs:label>
+    <rdfs:label xml:lang="pl">Dušan Kovačević</rdfs:label>
+    <rdfs:label xml:lang="en">Dušan Kovačević</rdfs:label>
+    <rdfs:label xml:lang="fr">Dušan Kovačević</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bulworth">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Warren_Beatty"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cops_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/La_strada">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Federico_Fellini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ramona_%281916_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Donald_Crisp"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Oklahoma%21_%281999_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Trevor_Nunn"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Goin%27_South">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jack_Nicholson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Das_Boot">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Wolfgang_Petersen"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Love_Affair_%281939_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Playing_%27In_the_Company_of_Men%27">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arnaud_Desplechin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Eraserhead">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Lynch"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Journey_to_the_Land_of_the_Traveller">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bahman_Kiarostami"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Brazen_Beauty">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Racket">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lewis_Milestone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Marked_Woman">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Don%27t_Drink_the_Water_%281969_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Morris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Christopher_Nielsen">
+    <rdfs:label xml:lang="en">Christopher Nielsen</rdfs:label>
+    <rdfs:label xml:lang="fr">Christopher Nielsen</rdfs:label>
+    <rdfs:label xml:lang="nn">Christopher Nielsen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Francis_in_the_Navy">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arthur_Lubin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Thursday%27s_Children">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lindsay_Anderson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Knute_Rockne%2C_All_American">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vendredi_soir">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claire_Denis"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Arthur_Lubin">
+    <rdfs:label xml:lang="fr">Arthur Lubin</rdfs:label>
+    <rdfs:label xml:lang="en">Arthur Lubin</rdfs:label>
+    <rdfs:label xml:lang="de">Arthur Lubin</rdfs:label>
+    <rdfs:label xml:lang="it">Arthur Lubin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tars_and_Stripes">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/It_Happened_in_Brooklyn">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Richard_Whorf"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Elia_Suleiman">
+    <rdfs:label xml:lang="it">Elia Suleiman</rdfs:label>
+    <rdfs:label xml:lang="en">Elia Suleiman</rdfs:label>
+    <rdfs:label xml:lang="nl">Elia Suleiman</rdfs:label>
+    <rdfs:label xml:lang="fr">Elia Suleiman</rdfs:label>
+    <rdfs:label xml:lang="ja">エリア・スレイマン</rdfs:label>
+    <rdfs:label xml:lang="nn">Elia Suleiman</rdfs:label>
+    <rdfs:label xml:lang="de">Elia Suleiman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Strike_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Sergei_Eisenstein"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_Cuesta">
+    <rdfs:label xml:lang="de">Michael Cuesta</rdfs:label>
+    <rdfs:label xml:lang="pl">Michael Cuesta</rdfs:label>
+    <rdfs:label xml:lang="fr">Michael Cuesta</rdfs:label>
+    <rdfs:label xml:lang="en">Michael Cuesta</rdfs:label>
+    <rdfs:label xml:lang="it">Michael Cuesta</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Charlatan_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_Cimino">
+    <rdfs:label xml:lang="ru">Чимино, Майкл</rdfs:label>
+    <rdfs:label xml:lang="en">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="pl">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="de">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="es">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="it">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="pt">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="fi">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="sv">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="fr">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="nn">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="nl">Michael Cimino</rdfs:label>
+    <rdfs:label xml:lang="ja">マイケル・チミノ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hall_Pass_%282011_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bobby_Farrelly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Period_of_Adjustment_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Roy_Hill"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Performance_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Nicolas_Roeg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Judge_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alf_Sj%C3%B6berg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Big_Sky_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Gold_Ghost">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/White_Christmas_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Navigator:_A_Medieval_Odyssey">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Vincent_Ward"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vincent_Ward">
+    <rdfs:label xml:lang="de">Vincent Ward</rdfs:label>
+    <rdfs:label xml:lang="fr">Vincent Ward</rdfs:label>
+    <rdfs:label xml:lang="ja">ヴィンセント・ウォード</rdfs:label>
+    <rdfs:label xml:lang="it">Vincent Ward</rdfs:label>
+    <rdfs:label xml:lang="en">Vincent Ward</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Andrei_Tarkovsky">
+    <rdfs:label xml:lang="nl">Andrej Tarkovski</rdfs:label>
+    <rdfs:label xml:lang="fr">Andreï Tarkovski</rdfs:label>
+    <rdfs:label xml:lang="ja">アンドレイ・タルコフスキー</rdfs:label>
+    <rdfs:label xml:lang="it">Andrej Arsen'evič Tarkovskij</rdfs:label>
+    <rdfs:label xml:lang="ru">Тарковский, Андрей Арсеньевич</rdfs:label>
+    <rdfs:label xml:lang="pl">Andriej Tarkowski</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/George_C._Scott">
+    <rdfs:label xml:lang="ja">ジョージ・C・スコット</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Act_of_Violence">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fred_Zinnemann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Poeten_og_Lillemor_i_for%C3%A5rshum%C3%B8r">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Erik_Balling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Waris_Hussein">
+    <rdfs:label xml:lang="fr">Waris Hussein</rdfs:label>
+    <rdfs:label xml:lang="en">Waris Hussein</rdfs:label>
+    <rdfs:label xml:lang="nn">Waris Hussein</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tom_Stoppard">
+    <rdfs:label xml:lang="es">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="nn">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="de">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="fr">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="pl">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="fi">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="en">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="ru">Стоппард, Том</rdfs:label>
+    <rdfs:label xml:lang="ja">トム・ストッパード</rdfs:label>
+    <rdfs:label xml:lang="sv">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="it">Tom Stoppard</rdfs:label>
+    <rdfs:label xml:lang="nl">Tom Stoppard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_First_Traveling_Saleslady">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arthur_Lubin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rescue_Dawn">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Maximum_Overdrive">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Stephen_King"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jean_Cocteau">
+    <rdfs:label xml:lang="nl">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="es">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="fr">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="nn">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="en">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="de">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="fi">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="it">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="pl">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="pt">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="sv">Jean Cocteau</rdfs:label>
+    <rdfs:label xml:lang="ja">ジャン・コクトー</rdfs:label>
+    <rdfs:label xml:lang="ru">Кокто, Жан</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Fly_%281986_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Cronenberg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Living_Death">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Joan_the_Woman">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Anne_Fontaine_%28filmmaker%29">
+    <rdfs:label xml:lang="fr">Anne Fontaine</rdfs:label>
+    <rdfs:label xml:lang="en">Anne Fontaine (filmmaker)</rdfs:label>
+    <rdfs:label xml:lang="es">Anne Fontaine</rdfs:label>
+    <rdfs:label xml:lang="ja">アンヌ・フォンテーヌ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rituparno_Ghosh">
+    <rdfs:label xml:lang="de">Rituparno Ghosh</rdfs:label>
+    <rdfs:label xml:lang="en">Rituparno Ghosh</rdfs:label>
+    <rdfs:label xml:lang="fr">Rituparno Ghosh</rdfs:label>
+    <rdfs:label xml:lang="pl">Rituparno Ghosh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/L%27important_c%27est_d%27aimer">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrzej_%C5%BBu%C5%82awski"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Lucky_Strike">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arthur_Hotaling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Cabin_in_the_Cotton">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Limits_of_Control">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jim_Jarmusch"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Grandma%27s_Reading_Glass">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Albert_Smith_%28inventor%29"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sexy_Sluts:_Been_There%2C_Done_That">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Necro_%28rapper%29"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Serious_Moonlight_%282009_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cheryl_Hines"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/What%27s_His_Name">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Air_Force_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Broken_Fetters">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rex_Ingram_%28director%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fri%C3%B0rik_%C3%9E%C3%B3r_Fri%C3%B0riksson">
+    <rdfs:label xml:lang="zh">弗里德里克·索爾·弗里德里克松</rdfs:label>
+    <rdfs:label xml:lang="ja">フリドリック・トール・フリドリクソン</rdfs:label>
+    <rdfs:label xml:lang="ru">Фридрик Тоур Фридрикссон</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/She_Was_the_Other">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arthur_Hotaling"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/River_Queen">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Vincent_Ward"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Revolution_My_A">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Erik_Balling"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Raincoat_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rituparno_Ghosh"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ma_vie_en_cin%C3%A9mascope">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Denise_Filiatrault"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Where_East_Is_East">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lindsay_Anderson">
+    <rdfs:label xml:lang="ru">Андерсон, Линдсей</rdfs:label>
+    <rdfs:label xml:lang="ja">リンゼイ・アンダーソン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chris_Marker">
+    <rdfs:label xml:lang="ja">クリス・マルケル</rdfs:label>
+    <rdfs:label xml:lang="fr">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="pt">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="en">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="fi">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="de">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="es">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="it">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="pl">Chris Marker</rdfs:label>
+    <rdfs:label xml:lang="ru">Крис Маркер</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/B%C3%A9la_Tarr">
+    <rdfs:label xml:lang="en">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="nl">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="it">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="nn">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="sv">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="fr">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="de">Béla Tarr</rdfs:label>
+    <rdfs:label xml:lang="pl">Béla Tarr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Adam%27s_Rib_%281923_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Necro_%28rapper%29">
+    <rdfs:label xml:lang="fr">Necro</rdfs:label>
+    <rdfs:label xml:lang="it">Necro</rdfs:label>
+    <rdfs:label xml:lang="de">Necro</rdfs:label>
+    <rdfs:label xml:lang="pl">Necro</rdfs:label>
+    <rdfs:label xml:lang="es">Necro</rdfs:label>
+    <rdfs:label xml:lang="fi">Necro</rdfs:label>
+    <rdfs:label xml:lang="sv">Necro</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Martha_Coolidge">
+    <rdfs:label xml:lang="pl">Martha Coolidge</rdfs:label>
+    <rdfs:label xml:lang="fi">Martha Coolidge</rdfs:label>
+    <rdfs:label xml:lang="fr">Martha Coolidge</rdfs:label>
+    <rdfs:label xml:lang="it">Martha Coolidge</rdfs:label>
+    <rdfs:label xml:lang="de">Martha Coolidge</rdfs:label>
+    <rdfs:label xml:lang="en">Martha Coolidge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hands_Up%21_%28serial%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/James_W._Horne"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ballad_of_the_Little_Soldier">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Puppets_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Night_Watch_%282004_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Timur_Bekmambetov"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Union_Pacific_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Today_We_Live">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Federico_Fellini">
+    <rdfs:label xml:lang="ja">フェデリコ・フェリーニ</rdfs:label>
+    <rdfs:label xml:lang="ru">Феллини, Федерико</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Howard_Morris">
+    <rdfs:label xml:lang="fr">Howard Morris</rdfs:label>
+    <rdfs:label xml:lang="de">Howard Morris</rdfs:label>
+    <rdfs:label xml:lang="en">Howard Morris</rdfs:label>
+    <rdfs:label xml:lang="it">Howard Morris</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Thin_Blue_Line_%28documentary%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Errol_Morris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Arthur_Hotaling">
+    <rdfs:label xml:lang="fr">Arthur Hotaling</rdfs:label>
+    <rdfs:label xml:lang="en">Arthur Hotaling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Broken_Hearts_Club:_A_Romantic_Comedy">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Greg_Berlanti"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Leslie_Howard_%28actor%29">
+    <rdfs:label xml:lang="it">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="nl">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="es">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="fi">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="pl">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="sv">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="pt">Leslie Howard</rdfs:label>
+    <rdfs:label xml:lang="ru">Говард, Лесли</rdfs:label>
+    <rdfs:label xml:lang="fr">Leslie Howard (acteur)</rdfs:label>
+    <rdfs:label xml:lang="ja">レスリー・ハワード</rdfs:label>
+    <rdfs:label xml:lang="zh">莱斯利·霍华德</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Battleship_Potemkin">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Sergei_Eisenstein"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/1984_%28advertisement%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Ridley_Scott"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cliff_Robertson">
+    <rdfs:label xml:lang="fr">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="fi">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="en">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="pt">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="de">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="es">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="nl">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="it">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="nn">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="sv">Cliff Robertson</rdfs:label>
+    <rdfs:label xml:lang="pl">Cliff Robertson</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_Patrick_King">
+    <rdfs:label xml:lang="en">Michael Patrick King</rdfs:label>
+    <rdfs:label xml:lang="de">Michael Patrick King</rdfs:label>
+    <rdfs:label xml:lang="zh">麥可·派翠克·金</rdfs:label>
+    <rdfs:label xml:lang="it">Michael Patrick King</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Death_in_Venice_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Luchino_Visconti"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Betty_Anne_Waters">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tony_Goldwyn"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bille_August">
+    <rdfs:label xml:lang="de">Bille August</rdfs:label>
+    <rdfs:label xml:lang="pl">Bille August</rdfs:label>
+    <rdfs:label xml:lang="en">Bille August</rdfs:label>
+    <rdfs:label xml:lang="es">Bille August</rdfs:label>
+    <rdfs:label xml:lang="it">Bille August</rdfs:label>
+    <rdfs:label xml:lang="nl">Bille August</rdfs:label>
+    <rdfs:label xml:lang="pt">Bille August</rdfs:label>
+    <rdfs:label xml:lang="nn">Bille August</rdfs:label>
+    <rdfs:label xml:lang="fr">Bille August</rdfs:label>
+    <rdfs:label xml:lang="sv">Bille August</rdfs:label>
+    <rdfs:label xml:lang="fi">Bille August</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Greatest_Story_Ever_Told">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Stevens"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Scarecrow_%281920_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bells_from_the_Deep">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dodge_City_%281939_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Looker">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Crichton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mr._Death:_The_Rise_and_Fall_of_Fred_A._Leuchter%2C_Jr.">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Errol_Morris"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/In_the_Line_of_Fire">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Wolfgang_Petersen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ragtime_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Milo%C5%A1_Forman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Anders_Thomas_Jensen">
+    <rdfs:label xml:lang="fr">Anders-Thomas Jensen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nosferatu_the_Vampyre">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Videodrome">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Cronenberg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Matilda%27s_Legacy">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arthur_Hotaling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Die_Konsequenz">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Wolfgang_Petersen"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Marie-Chantal_contre_le_docteur_Kha">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claude_Chabrol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Werner_Herzog">
+    <rdfs:label xml:lang="ja">ヴェルナー・ヘルツォーク</rdfs:label>
+    <rdfs:label xml:lang="ru">Херцог, Вернер</rdfs:label>
+    <rdfs:label xml:lang="de">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="pl">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="fi">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="fr">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="nl">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="es">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="nn">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="pt">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="it">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="en">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="sv">Werner Herzog</rdfs:label>
+    <rdfs:label xml:lang="zh">韋納·荷索</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Seventh_Cross_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fred_Zinnemann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_General_Died_at_Dawn">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lewis_Milestone"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Twin_Sister">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arthur_Hotaling"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Oliver_Hardy">
+    <rdfs:label xml:lang="ru">Харди, Оливер</rdfs:label>
+    <rdfs:label xml:lang="pt">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="pl">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="nn">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="sv">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="nl">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="en">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="de">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="fi">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="es">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="fr">Oliver Hardy</rdfs:label>
+    <rdfs:label xml:lang="it">Oliver Hardy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boy_and_Bicycle">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Ridley_Scott"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Effect_of_Gamma_Rays_on_Man-in-the-Moon_Marigolds_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Paul_Newman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Andrew_Fleming">
+    <rdfs:label xml:lang="pl">Andrew Fleming</rdfs:label>
+    <rdfs:label xml:lang="fr">Andrew Fleming</rdfs:label>
+    <rdfs:label xml:lang="en">Andrew Fleming</rdfs:label>
+    <rdfs:label xml:lang="pt">Andrew Fleming</rdfs:label>
+    <rdfs:label xml:lang="de">Andrew Fleming</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mon_Oncle">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jacques_Tati"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/His_Glorious_Night">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lionel_Barrymore"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Landmandsliv">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Erik_Balling"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jim_Thorpe_%E2%80%93_All-American">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blue_in_the_Face">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Paul_Auster"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Time_That_Remains">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Elia_Suleiman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Angels_of_the_Universe">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fri%C3%B0rik_%C3%9E%C3%B3r_Fri%C3%B0riksson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Liv_Ullmann">
+    <rdfs:label xml:lang="ja">リヴ・ウルマン</rdfs:label>
+    <rdfs:label xml:lang="zh">麗芙·烏曼</rdfs:label>
+    <rdfs:label xml:lang="it">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="nl">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="sv">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="pl">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="pt">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="fi">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="nn">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="es">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="de">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="en">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="fr">Liv Ullmann</rdfs:label>
+    <rdfs:label xml:lang="ru">Ульман, Лив</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Seema">
+    <rdfs:label xml:lang="it">Oncorhynchus masou</rdfs:label>
+    <rdfs:label xml:lang="nl">Japanse zalm</rdfs:label>
+    <rdfs:label xml:lang="zh">櫻鱒</rdfs:label>
+    <rdfs:label xml:lang="ja">ヤマメ</rdfs:label>
+    <rdfs:label xml:lang="ru">Сима</rdfs:label>
+    <rdfs:label xml:lang="ja">サクラマス</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Born_American">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Renny_Harlin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fat_and_Fickle">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Oliver_Hardy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Utsab">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rituparno_Ghosh"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Parajanov:_The_Last_Spring_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Mikhail_Vartanov"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Sergei_Parajanov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Red_Samson">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Out_to_Sea">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Martha_Coolidge"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Peter_Greenaway">
+    <rdfs:label xml:lang="ja">ピーター・グリーナウェイ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mission_to_Moscow">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/James_W._Horne">
+    <rdfs:label xml:lang="en">James W. Horne</rdfs:label>
+    <rdfs:label xml:lang="fr">James W. Horne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_Oey">
+    <rdfs:label xml:lang="en">Alexander Oey</rdfs:label>
+    <rdfs:label xml:lang="nl">Alexander Oey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stealing_Beauty">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bernardo_Bertolucci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Life_During_Wartime_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Todd_Solondz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Man_in_the_Net">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Cyril_Collard">
+    <rdfs:label xml:lang="it">Cyril Collard</rdfs:label>
+    <rdfs:label xml:lang="de">Cyril Collard</rdfs:label>
+    <rdfs:label xml:lang="nl">Cyril Collard</rdfs:label>
+    <rdfs:label xml:lang="fr">Cyril Collard</rdfs:label>
+    <rdfs:label xml:lang="en">Cyril Collard</rdfs:label>
+    <rdfs:label xml:lang="ja">シリル・コラール</rdfs:label>
+    <rdfs:label xml:lang="fi">Cyril Collard</rdfs:label>
+    <rdfs:label xml:lang="es">Cyril Collard</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Losin%27_It">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Curtis_Hanson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vendetta_%281950_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Max_Oph%C3%BCls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Private_Worlds">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Gregory_La_Cava"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Children_of_Men">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfonso_Cuar%C3%B3n"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Young_Man_with_a_Horn_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/That_Mothers_Might_Live">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fred_Zinnemann"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rage_%281972_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_C._Scott"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/There%27s_Always_Tomorrow">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Douglas_Sirk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_French_Line">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Flamingo_Rising">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Martha_Coolidge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Andrei_Konchalovsky">
+    <rdfs:label xml:lang="es">Andréi Konchalovski</rdfs:label>
+    <rdfs:label xml:lang="de">Andrei Sergejewitsch Michalkow-Kontschalowski</rdfs:label>
+    <rdfs:label xml:lang="nl">Andrej Kontsjalovski</rdfs:label>
+    <rdfs:label xml:lang="it">Andrej Sergeevič Michalkov-Končalovskij</rdfs:label>
+    <rdfs:label xml:lang="fi">Andrei Kontšalovski</rdfs:label>
+    <rdfs:label xml:lang="ru">Михалков-Кончаловский, Андрей Сергеевич</rdfs:label>
+    <rdfs:label xml:lang="ja">アンドレイ・コンチャロフスキー</rdfs:label>
+    <rdfs:label xml:lang="en">Andrei Konchalovsky</rdfs:label>
+    <rdfs:label xml:lang="pl">Andriej Konczałowski</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Timur_Bekmambetov">
+    <rdfs:label xml:lang="es">Timur Bekmambetov</rdfs:label>
+    <rdfs:label xml:lang="pt">Timur Bekmambetov</rdfs:label>
+    <rdfs:label xml:lang="it">Timur Bekmambetov</rdfs:label>
+    <rdfs:label xml:lang="fr">Timur Bekmambetov</rdfs:label>
+    <rdfs:label xml:lang="en">Timur Bekmambetov</rdfs:label>
+    <rdfs:label xml:lang="pl">Timur Bekmambetow</rdfs:label>
+    <rdfs:label xml:lang="ru">Бекмамбетов, Тимур Нуруахитович</rdfs:label>
+    <rdfs:label xml:lang="ja">ティムール・ベクマンベトフ</rdfs:label>
+    <rdfs:label xml:lang="de">Timur Nuruachitowitsch Bekmambetow</rdfs:label>
+    <rdfs:label xml:lang="nl">Timoer Bekmambetov</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Shamus_Culhane">
+    <rdfs:label xml:lang="sv">Shamus Culhane</rdfs:label>
+    <rdfs:label xml:lang="fr">Shamus Culhane</rdfs:label>
+    <rdfs:label xml:lang="pt">Shamus Culhane</rdfs:label>
+    <rdfs:label xml:lang="en">Shamus Culhane</rdfs:label>
+    <rdfs:label xml:lang="es">Shamus Culhane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Monkey_Business_%281952_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Richard_Whorf">
+    <rdfs:label xml:lang="en">Richard Whorf</rdfs:label>
+    <rdfs:label xml:lang="fr">Richard Whorf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Istv%C3%A1n_Szab%C3%B3">
+    <rdfs:label xml:lang="pt">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="nn">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="de">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="sv">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="fr">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="en">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="fi">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="es">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="pl">István Szabó</rdfs:label>
+    <rdfs:label xml:lang="it">István Szabó (regista)</rdfs:label>
+    <rdfs:label xml:lang="ja">サボー・イシュトヴァーン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sorious_Samura">
+    <rdfs:label xml:lang="pt">Sorious Samura</rdfs:label>
+    <rdfs:label xml:lang="de">Sorious Samura</rdfs:label>
+    <rdfs:label xml:lang="en">Sorious Samura</rdfs:label>
+    <rdfs:label xml:lang="es">Sorious Samura</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Conquering_Power">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rex_Ingram_%28director%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/O_Dreamland">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lindsay_Anderson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Departure_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jerzy_Skolimowski"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Black_Fury_%281935_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Les_parents_terribles_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jean_Cocteau"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/George_Stevens">
+    <rdfs:label xml:lang="ja">ジョージ・スティーヴンス</rdfs:label>
+    <rdfs:label xml:lang="pt">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="fr">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="it">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="de">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="en">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="nl">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="pl">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="sv">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="fi">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="es">George Stevens</rdfs:label>
+    <rdfs:label xml:lang="nn">George Stevens</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fig_Leaves">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tony_Goldwyn">
+    <rdfs:label xml:lang="ja">トニー・ゴールドウィン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Time_to_Love_and_a_Time_to_Die">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Douglas_Sirk"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Last_Foxtrot_in_Burbank">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/There_Is_No_Authority_But_Yourself">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alexander_Oey"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Death_Mills">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sweet_Kill">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Curtis_Hanson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Imitation_of_Life_%281959_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Douglas_Sirk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/George_Albert_Smith_%28inventor%29">
+    <rdfs:label xml:lang="en">George Albert Smith (inventor)</rdfs:label>
+    <rdfs:label xml:lang="nn">George Albert Smith (oppfinner)</rdfs:label>
+    <rdfs:label xml:lang="de">George Albert Smith (Filmproduzent)</rdfs:label>
+    <rdfs:label xml:lang="ru">Смит, Джордж Альберт</rdfs:label>
+    <rdfs:label xml:lang="it">George Albert Smith</rdfs:label>
+    <rdfs:label xml:lang="fr">George Albert Smith (inventeur)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Unfaithful_Wife">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claude_Chabrol"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/1%2C_2%2C_3%2C_Sun">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bertrand_Blier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Crimes_of_the_Future">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Cronenberg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sit_Tight">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/After_Five">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Baby_of_M%C3%A2con">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Peter_Greenaway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Doll_Graveyard">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Syndromes_and_a_Century">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Apichatpong_Weerasethakul"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Storytelling_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Todd_Solondz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mare_Nostrum_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Rex_Ingram_%28director%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bedtime_Stories_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Adam_Shankman"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Which_Woman%3F">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Liliom_%281919_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Gentlemen_Prefer_Blondes_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Denise_Filiatrault">
+    <rdfs:label xml:lang="en">Denise Filiatrault</rdfs:label>
+    <rdfs:label xml:lang="fr">Denise Filiatrault</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dead_Man%27s_Hand_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Insignificance_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Nicolas_Roeg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Man_Under_Cover">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Two_Jakes">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jack_Nicholson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Maria_Rosa">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Twin_Peaks:_Fire_Walk_with_Me">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Lynch"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alfred_Santell">
+    <rdfs:label xml:lang="it">Alfred Santell</rdfs:label>
+    <rdfs:label xml:lang="fr">Alfred Santell</rdfs:label>
+    <rdfs:label xml:lang="en">Alfred Santell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jacques_Tati">
+    <rdfs:label xml:lang="ru">Тати, Жак</rdfs:label>
+    <rdfs:label xml:lang="ja">ジャック・タチ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fernand_L%C3%A9ger">
+    <rdfs:label xml:lang="nn">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="es">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="pt">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="de">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="en">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="sv">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="nl">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="fr">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="pl">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="it">Fernand Léger</rdfs:label>
+    <rdfs:label xml:lang="fi">Fernand Léger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I_clowns">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Federico_Fellini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Death_Comes_at_High_Noon">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Erik_Balling"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Claude_Chabrol">
+    <rdfs:label xml:lang="ru">Шаброль, Клод</rdfs:label>
+    <rdfs:label xml:lang="ja">クロード・シャブロル</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Errol_Morris">
+    <rdfs:label xml:lang="ru">Моррис, Эррол</rdfs:label>
+    <rdfs:label xml:lang="zh">埃洛·莫里斯</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jack_Nicholson">
+    <rdfs:label xml:lang="ru">Николсон, Джек</rdfs:label>
+    <rdfs:label xml:lang="ja">ジャック・ニコルソン</rdfs:label>
+    <rdfs:label xml:lang="zh">杰克·尼科尔森</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ridley_Scott">
+    <rdfs:label xml:lang="ja">リドリー・スコット</rdfs:label>
+    <rdfs:label xml:lang="zh">雷利·史考特</rdfs:label>
+    <rdfs:label xml:lang="ru">Скотт, Ридли</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fred_Zinnemann">
+    <rdfs:label xml:lang="ru">Циннеман, Фред</rdfs:label>
+    <rdfs:label xml:lang="es">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="pl">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="pt">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="en">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="it">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="fr">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="nn">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="de">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="fi">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="nl">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="sv">Fred Zinnemann</rdfs:label>
+    <rdfs:label xml:lang="ja">フレッド・ジンネマン</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fran%C3%A7ois_Girard">
+    <rdfs:label xml:lang="ja">フランソワ・ジラール</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jim_Jarmusch">
+    <rdfs:label xml:lang="sv">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="zh">吉姆·賈木許</rdfs:label>
+    <rdfs:label xml:lang="de">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="es">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="it">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="nn">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="nl">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="en">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="pl">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="pt">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="fr">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="fi">Jim Jarmusch</rdfs:label>
+    <rdfs:label xml:lang="ru">Джармуш, Джим</rdfs:label>
+    <rdfs:label xml:lang="ja">ジム・ジャームッシュ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Play_Time">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jacques_Tati"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Angels_with_Dirty_Faces">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Having_Wonderful_Time">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfred_Santell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Pierre_Falardeau">
+    <rdfs:label xml:lang="fr">Pierre Falardeau</rdfs:label>
+    <rdfs:label xml:lang="en">Pierre Falardeau</rdfs:label>
+    <rdfs:label xml:lang="de">Pierre Falardeau</rdfs:label>
+    <rdfs:label xml:lang="fi">Pierre Falardeau</rdfs:label>
+    <rdfs:label xml:lang="nl">Pierre Falardeau</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sergei_Eisenstein">
+    <rdfs:label xml:lang="en">Sergei Eisenstein</rdfs:label>
+    <rdfs:label xml:lang="es">Sergéi Eisenstein</rdfs:label>
+    <rdfs:label xml:lang="pt">Serguei Eisenstein</rdfs:label>
+    <rdfs:label xml:lang="fi">Sergei Eisenstein</rdfs:label>
+    <rdfs:label xml:lang="fr">Sergueï Eisenstein</rdfs:label>
+    <rdfs:label xml:lang="de">Sergei Michailowitsch Eisenstein</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Henry_V_%281944_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Laurence_Olivier"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Broken_Flowers">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jim_Jarmusch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Paradises:_On_the_Track_of_Rare_Animals">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Eugen_Schuhmacher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Romance_on_the_High_Seas">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Busters_verden">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bille_August"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Bohemian">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lionel_Barrymore">
+    <rdfs:label xml:lang="ja">ライオネル・バリモア</rdfs:label>
+    <rdfs:label xml:lang="en">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="sv">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="nl">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="it">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="pt">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="pl">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="fr">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="de">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="nn">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="fi">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="es">Lionel Barrymore</rdfs:label>
+    <rdfs:label xml:lang="ru">Берримор, Лайонел</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_General_%281927_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Some_Like_It_Hot">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bernardo_Bertolucci">
+    <rdfs:label xml:lang="ja">ベルナルド・ベルトルッチ</rdfs:label>
+    <rdfs:label xml:lang="zh">貝納多·貝托魯奇</rdfs:label>
+    <rdfs:label xml:lang="ru">Бертолуччи, Бернардо</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Max_Oph%C3%BCls">
+    <rdfs:label xml:lang="ja">マックス・オフュルス</rdfs:label>
+    <rdfs:label xml:lang="ru">Макс Офюльс</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Arnaud_Desplechin">
+    <rdfs:label xml:lang="de">Arnaud Desplechin</rdfs:label>
+    <rdfs:label xml:lang="en">Arnaud Desplechin</rdfs:label>
+    <rdfs:label xml:lang="ja">アルノー・デプレシャン</rdfs:label>
+    <rdfs:label xml:lang="es">Arnaud Desplechin</rdfs:label>
+    <rdfs:label xml:lang="it">Arnaud Desplechin</rdfs:label>
+    <rdfs:label xml:lang="fr">Arnaud Desplechin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Palindromes_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Todd_Solondz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Milo%C5%A1_Forman">
+    <rdfs:label xml:lang="de">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="nn">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="it">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="fi">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="pl">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="fr">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="es">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="nl">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="en">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="zh">米洛斯·福曼</rdfs:label>
+    <rdfs:label xml:lang="ru">Форман, Милош</rdfs:label>
+    <rdfs:label xml:lang="sv">Miloš Forman</rdfs:label>
+    <rdfs:label xml:lang="pt">Miloš Forman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Roger_Spottiswoode">
+    <rdfs:label xml:lang="pt">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="nl">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="sv">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="de">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="fr">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="fi">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="en">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="it">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="pl">Roger Spottiswoode</rdfs:label>
+    <rdfs:label xml:lang="ja">ロジャー・スポティスウッド</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Good_Sam">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Augustin%2C_King_of_Kung-Fu">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Anne_Fontaine_%28filmmaker%29"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Barabbas_%281953_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alf_Sj%C3%B6berg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Front_Page_%281974_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Only_Angels_Have_Wings">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Voice_of_the_Moon">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Federico_Fellini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Fatal_Glass_of_Beer_%281916_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Tod_Browning"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lady_Jane_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Trevor_Nunn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Kindling_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cecil_B._DeMille"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Men_in_Black_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Barry_Sonnenfeld"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vigil_in_the_Night">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/George_Stevens"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Deadwood_Dick_%28serial%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/James_W._Horne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stories_of_Lost_Souls">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrew_Upton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/And_the_Ship_Sails_On">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Federico_Fellini"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Scary_Movie_%28film_series%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Keenen_Ivory_Wayans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Thambikku_Indha_Ooru">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Badri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/C%C3%A9leste_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Percy_Adlon"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Thunderbirds_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jonathan_Frakes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Footlight_Parade">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Last_Words_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/One%2C_Two%2C_Three">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Charles_Laughton">
+    <rdfs:label xml:lang="zh">查尔斯·劳顿</rdfs:label>
+    <rdfs:label xml:lang="sv">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="de">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="nl">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="en">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="nn">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="es">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="it">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="pl">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="fi">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="pt">Charles Laughton</rdfs:label>
+    <rdfs:label xml:lang="fr">Charles Laughton</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Good_Year">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Ridley_Scott"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Neanderthal_Man">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Ewald_Andr%C3%A9_Dupont"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alfonso_Cuar%C3%B3n">
+    <rdfs:label xml:lang="en">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="ja">アルフォンソ・キュアロン</rdfs:label>
+    <rdfs:label xml:lang="pt">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="nn">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="nl">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="fr">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="es">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="it">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="fi">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="de">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="pl">Alfonso Cuarón</rdfs:label>
+    <rdfs:label xml:lang="sv">Alfonso Cuarón</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Clive_Barker">
+    <rdfs:label xml:lang="fr">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="ja">クライヴ・バーカー</rdfs:label>
+    <rdfs:label xml:lang="nl">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="it">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="de">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="es">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="fi">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="pl">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="sv">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="pt">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="en">Clive Barker</rdfs:label>
+    <rdfs:label xml:lang="ru">Баркер, Клайв</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Our_Wife_%281931_short%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/James_W._Horne"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Appearances_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Donald_Crisp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Look_Back_in_Anger_%281980_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lindsay_Anderson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Search">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fred_Zinnemann"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vigil_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Vincent_Ward"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Terry_Jones">
+    <rdfs:label xml:lang="ru">Джонс, Терри</rdfs:label>
+    <rdfs:label xml:lang="fr">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="de">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="nl">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="nn">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="fi">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="es">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="sv">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="en">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="pl">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="it">Terry Jones</rdfs:label>
+    <rdfs:label xml:lang="pt">Terry Jones</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Crash%21">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Charles_Band"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mommy_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Max_Allan_Collins"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Female_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Hole_in_My_Heart">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lukas_Moodysson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ewald_Andr%C3%A9_Dupont">
+    <rdfs:label xml:lang="fr">Ewald André Dupont</rdfs:label>
+    <rdfs:label xml:lang="es">Ewald André Dupont</rdfs:label>
+    <rdfs:label xml:lang="de">Ewald André Dupont</rdfs:label>
+    <rdfs:label xml:lang="en">Ewald André Dupont</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Rough_House">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Buster_Keaton"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Solaris_%281972_film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Andrei_Tarkovsky"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Irma_la_Douce">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Billy_Wilder"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/My_Dream_Is_Yours">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Curtiz"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mystery_Train_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jim_Jarmusch"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Percy_Adlon">
+    <rdfs:label xml:lang="fi">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="en">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="es">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="sv">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="de">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="nn">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="pl">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="fr">Percy Adlon</rdfs:label>
+    <rdfs:label xml:lang="pt">Percy Adlon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Internes_Can%27t_Take_Money">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alfred_Santell"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Night_the_Animals_Talked">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Shamus_Culhane"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stephen_King">
+    <rdfs:label xml:lang="ru">Кинг, Стивен Эдвин</rdfs:label>
+    <rdfs:label xml:lang="ja">スティーヴン・キング</rdfs:label>
+    <rdfs:label xml:lang="zh">斯蒂芬·金</rdfs:label>
+    <rdfs:label xml:lang="pl">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="fr">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="de">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="nn">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="es">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="sv">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="pt">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="en">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="nl">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="it">Stephen King</rdfs:label>
+    <rdfs:label xml:lang="fi">Stephen King</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Little_Dieter_Needs_to_Fly">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Werner_Herzog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/George_Roy_Hill">
+    <rdfs:label xml:lang="ru">Хилл, Джордж Рой</rdfs:label>
+    <rdfs:label xml:lang="nl">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="fr">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="nn">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="es">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="fi">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="pt">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="sv">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="pl">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="it">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="en">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="de">George Roy Hill</rdfs:label>
+    <rdfs:label xml:lang="ja">ジョージ・ロイ・ヒル</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Best_Wishes_for_Tomorrow">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Takashi_Koizumi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Renny_Harlin">
+    <rdfs:label xml:lang="ja">レニー・ハーリン</rdfs:label>
+    <rdfs:label xml:lang="fr">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="pt">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="en">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="nl">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="nn">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="it">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="fi">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="de">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="pl">Renny Harlin</rdfs:label>
+    <rdfs:label xml:lang="sv">Renny Harlin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Brian_Helgeland">
+    <rdfs:label xml:lang="ru">Хелгеленд, Брайан</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Halls_of_Montezuma_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lewis_Milestone"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Mamet">
+    <rdfs:label xml:lang="ja">デヴィッド・マメット</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Savage_Nights">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cyril_Collard"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Night_Watch_%281973_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Brian_G._Hutton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Adam_Shankman">
+    <rdfs:label xml:lang="it">Adam Shankman</rdfs:label>
+    <rdfs:label xml:lang="fr">Adam Shankman</rdfs:label>
+    <rdfs:label xml:lang="nn">Adam Shankman</rdfs:label>
+    <rdfs:label xml:lang="en">Adam Shankman</rdfs:label>
+    <rdfs:label xml:lang="fi">Adam Shankman</rdfs:label>
+    <rdfs:label xml:lang="de">Adam Shankman</rdfs:label>
+    <rdfs:label xml:lang="pl">Adam Shankman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Thirty_Two_Short_Films_About_Glenn_Gould">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Fran%C3%A7ois_Girard"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Dreamers_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Bernardo_Bertolucci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Kings_and_Queen">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Arnaud_Desplechin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/A_Girl_in_Every_Port_%281928_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Librarian:_Return_to_King_Solomon%27s_Mines">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Jonathan_Frakes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Todd_Solondz">
+    <rdfs:label xml:lang="de">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="en">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="sv">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="nn">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="es">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="fr">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="fi">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="it">Todd Solondz</rdfs:label>
+    <rdfs:label xml:lang="ja">トッド・ソロンズ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Big_Business_%281929_film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Should_Men_Walk_Home%3F">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/J._W._Coop">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Cliff_Robertson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alison_Maclean">
+    <rdfs:label xml:lang="en">Alison Maclean</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tehilim_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Raphael_Nadjari"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Come_and_Get_It_%28film%29">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Howard_Hawks"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/If....">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lindsay_Anderson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Brother_Orchid">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Silver_Queen">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Far_from_Vietnam">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Chris_Marker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Deer_Hunter">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Cimino"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Straight_Story">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/David_Lynch"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/L.I.E.">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Michael_Cuesta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/In_Caliente">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Lloyd_Bacon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Theodoros_Angelopoulos">
+    <rdfs:label xml:lang="fr">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="nl">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="en">Theodoros Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="it">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="es">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="de">Theodoros Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="pl">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="pt">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="zh">安哲羅普洛斯</rdfs:label>
+    <rdfs:label xml:lang="ja">テオ・アンゲロプロス</rdfs:label>
+    <rdfs:label xml:lang="fi">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="sv">Theo Angelopoulos</rdfs:label>
+    <rdfs:label xml:lang="nn">Theo Angelopoulos</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Why_Girls_Say_No">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Leo_McCarey"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Claire_Denis">
+    <rdfs:label xml:lang="ru">Дени, Клер</rdfs:label>
+    <rdfs:label xml:lang="ja">クレール・ドニ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Only_a_Mother">
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Alf_Sj%C3%B6berg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Professional_%28film%29">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Du%C5%A1an_Kova%C4%8Devi%C4%87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Andrew_Upton">
+    <rdfs:label xml:lang="en">Andrew Upton</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Le_Beau_Serge">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbpedia-owl:director rdf:resource="http://dbpedia.org/resource/Claude_Chabrol"/>
+  </rdf:Description>
+</rdf:RDF>

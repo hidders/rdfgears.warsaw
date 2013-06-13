@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-countCountries</id>
+	  <name>countCountries</name>
+	  <category>imreal-util</category>
+      <description>A helper service that counts for each country the number of images located in that country.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="40" y="84">
+         <workflowInputPort name="bagOfRecords"/>
+      </workflowInputList>
+      <network output="node_75" x="692" y="311">
+         <processor id="node_75" x="724" y="98">
+            <function type="record-create">
+               <config param="fields">country;count;</config>
+            </function>
+            <inputPort iterate="false" name="country">
+               <source processor="node_74"/>
+            </inputPort>
+            <inputPort iterate="false" name="count">
+               <source processor="node_76"/>
+            </inputPort>
+         </processor>
+         <processor id="node_74" x="483" y="96">
+            <function type="record-project">
+               <config param="projectField">country</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="calcSimilarity"/>
+            </inputPort>
+         </processor>
+         <processor id="calcSimilarity" x="266" y="70">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source workflowInputPort="bagOfRecords"/>
+            </inputPort>
+         </processor>
+         <processor id="node_76" x="499" y="230">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.BagSize</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source workflowInputPort="bagOfRecords"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>extractData/linkedmdb_dir_label</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_28" x="347" y="342">
+         <processor id="node_28" x="453" y="231">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.BagToGraph</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_27"/>
+            </inputPort>
+         </processor>
+         <processor id="node_27" x="264" y="237">
+            <function type="bag-flatten"/>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_230"/>
+            </inputPort>
+         </processor>
+         <processor id="node_230" x="379" y="88">
+            <function type="custom-java">
+               <config param="implementation">workflow:extractData/linkedmdb_dir_label_createrecords</config>
+            </function>
+            <inputPort iterate="false" name="optionalpred">
+               <source processor="node_65"/>
+            </inputPort>
+            <inputPort iterate="false" name="solution">
+               <source processor="node_80"/>
+            </inputPort>
+         </processor>
+         <processor id="node_65" x="229" y="16">
+            <function type="constant">
+               <config param="value">&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_80" x="139" y="112">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://data.linkedmdb.org/sparql</config>
+               <config param="query">SELECT ?b ?v0 
+WHERE {
+ 	?b &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://data.linkedmdb.org/resource/movie/director&gt; .
+ 	OPTIONAL {
+ 		?b &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; ?v0 .
+ 	} 
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

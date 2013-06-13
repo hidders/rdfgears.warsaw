@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+	<service>
+		<name>TweetUM</name>
+		<url>http://localhost:8081/rdfgears-rest/user/execute/imreal/usem-getTwitterInterestProfile
+		</url>
+		<description>Given a Twitter username, it returns the FOAF-based
+			interest profile of the corresponding learner.
+		</description>
+	</service>
+	<service>
+		<name>Location estimation of images</name>
+		<url>http://localhost:8081/rdfgears-rest/user/execute/imreal/findFlickrData
+		</url>
+		<description>Requires as input a Flickr id (NSID) and then generates a
+			location profile for the given user based on up to the most recently
+			uploaded 250 images (utilizing more images would also possible of
+			course). The output is a bag of records; one record for each found
+			image, with image meta-data and estimated location: the date the
+			image was taken at, the latitude and longitude the image was taken at
+			(if available from Flickr), the estimated latitude and longitude as
+			determined by our approach and the error in kilometres between the
+			true and the estimated location (if available).
+		</description>
+	</service>
+	<service>
+		<name>Language Detection in Microblogs</name>
+		<url>http://localhost:8081/rdfgears-rest/user/execute/imreal/twitterLanguageDetect
+		</url>
+		<description>The set of languages a learner understands is an
+			attribute of the learner profile which can be derived from the
+			learner's posts on Twitter. Given a Twitter username, this service
+			returns the language profile of the corresponding learner.
+		</description>
+	</service>
+</services>

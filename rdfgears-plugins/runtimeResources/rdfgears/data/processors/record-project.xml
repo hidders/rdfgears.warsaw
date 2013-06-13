@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="record project" category="Record functions">
+<description>Project record field type</description>
+<inputs>
+<function type="record-project"> 
+<param name="projectField" type="String" label="Record Field"/>
+</function> 
+<data name="record" iterate="false" label="record">
+<type>
+<etuple>
+</etuple>
+</type>
+</data>
+</inputs> 
+<output> 
+<type>
+<var name="output"/>
+</type>
+</output>
+</processor>

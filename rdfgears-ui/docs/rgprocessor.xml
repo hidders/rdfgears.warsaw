@@ -1,0 +1,35 @@
+<processor label="the name of the processor that will be displayed on the UI" category="">
+	<description>some description</description>
+	<inputs>
+		<!-- inputs with input node -->
+		<data name="" label="" iterate="true|false">
+			<type>
+				<var name="alpha"/>
+			</type>
+		</data>
+		 
+		<function type="same-with-the-file-name">
+			<param name="" type="String|Fields|InputFields|Text|Query" label=""/>
+			<param name="" type="" label=""> 
+				<description>
+					description
+				</description>
+			</param>
+			<param name="" type="List" label="">
+				<source>
+					<option label="" value="" />
+					<option label="" value="" />
+					<option label="" value="" >
+						<data name="" type=""  label="" iterate="true|false"/>
+						<data name="" type=""  label="" iterate="true|false"/>
+					</option>
+				</source>
+			</param>
+		</function>
+	</inputs>
+	<output>
+		<type>
+			<var name="beta"/>
+		</type>
+	</output>
+</processor>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>util/project_score</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="88" y="103">
+         <workflowInputPort name="record"/>
+      </workflowInputList>
+      <network output="node_1" x="368" y="245">
+         <processor id="node_1" x="276" y="97">
+            <function type="record-project">
+               <config param="projectField">score</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="record"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

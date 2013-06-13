@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>2sub</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network x="450" y="450">
+         <processor id="node_48" x="247" y="46">
+            <function type="record-project">
+               <config param="projectField">gene</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+         </processor>
+         <processor id="node_49" x="247" y="178">
+            <function type="record-project">
+               <config param="projectField">compound_cid</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+         </processor>
+         <processor id="node_50" x="461" y="47">
+            <function type="sparql">
+               <config param="bindVariables">gene;</config>
+               <config param="query">select 
+?drugbank_interaction drugbank:gene ?gene .
+ ?drugbank_interaction drugbank:DBID ?drugbank_drug .
+ ?drugbank_drug drugbank:Generic_Name ?drug_name .
+ FILTER (?drug_name="Dexamethasone") .</config>
+            </function>
+            <inputPort iterate="false" name="gene">
+               <source processor="node_48"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

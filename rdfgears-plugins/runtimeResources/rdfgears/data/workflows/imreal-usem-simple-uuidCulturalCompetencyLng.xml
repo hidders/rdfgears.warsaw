@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-uuidCulturalCompetencyLng</id>
+	  <name>uuidCulturalCompetencyLng</name>
+	  <category>imreal-usem-simple</category>
+      <description>Given a UUID, the cultural competency of the user is determined based on his tweets (if no Twitter ID is registered with the UUID, the output cannot be computed). Based on the number of languages detected in a user's tweets, a cultural competency score of either 1.0, 2.0 or 3.0 is returned.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="33" y="61">
+         <workflowInputPort name="UUID"/>
+      </workflowInputList>
+      <network output="node_38" x="501" y="256">
+         <processor id="node_38" x="412" y="15">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.CulturalAwarenessLng</config>
+            </function>
+            <inputPort iterate="false" name="username">
+               <source processor="node_37"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_37" x="204" y="161">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-getTwitterID</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

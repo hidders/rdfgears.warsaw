@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="processor">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="description" type="xs:string"/>
+				<xs:element name="inputs">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="data">
+								<xs:complexType>
+									<xs:attribute name="id"	type="xs:string"/>
+									<xs:attribute name="name" type="xs:string"/>
+									<xs:attribute name="type" type="xs:string"/>
+									<xs:attribute name="label" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>	
+				</xs:element>
+				<xs:element name="ouput">
+				
+				</xs:element>
+			</xs:all>
+			<xs:attribute name="id" type="xs:string"/>
+			<xs:attribute name="name" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

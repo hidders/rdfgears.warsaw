@@ -1,0 +1,21 @@
+<processor label="Flickr Photo Locator" category="Custom Java">
+	<description>
+	This is a custom java function that given a flickr username estimates the geo-long/lat.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.FlickrPhotoLocator"/>
+		</function>
+		<data iterate="false" name="flickrUser" label="Flickr User">
+			<type><var name="flickrUser"/></type>
+		</data>
+		<data iterate="false" name="twitterUser" label="Twitter User">
+			<type><var name="twitterUser"/></type>
+		</data>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

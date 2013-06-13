@@ -1,0 +1,15 @@
+<processor label="Register UUID" category="Custom Java">
+	<description>
+	This is a custom java function that registers UUID into the database.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.uuid.RegisterUUIDFunction"/>
+		</function>
+		<data iterate="false" name="email" label="Email">
+			<type><var name="email"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>testSilkEx/selection-optional</id>
+      <name>Determine a similarity value and whether it exceed threshold</name>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="29" y="181">
+         <workflowInputPort name="mov_dir"/>
+      </workflowInputList>
+      <network output="comparator" type="gear" x="374" y="451">
+         <processor id="comparator" x="796" y="169">
+            <function type="gears-comparator">
+               <config param="operator">OP_GREATER_EQUAL</config>
+            </function>
+            <inputPort iterate="false" name="a">
+               <source processor="maxVal2"/>
+            </inputPort>
+            <inputPort iterate="false" name="b">
+               <source processor="constant0"/>
+            </inputPort>
+         </processor>
+         <processor id="maxVal2" x="635" y="96">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.MaxVal2</config>
+            </function>
+            <inputPort iterate="false" name="value1">
+               <source processor="jaro1"/>
+            </inputPort>
+            <inputPort iterate="false" name="value2">
+               <source processor="jaro2"/>
+            </inputPort>
+         </processor>
+         <processor id="jaro1" x="473" y="49">
+            <function type="custom-java">
+               <config param="implementation">nl.feliksik.rdfgears.JaroSimilarityFunction</config>
+            </function>
+            <inputPort iterate="false" name="s2">
+               <source processor="projectDirName"/>
+            </inputPort>
+            <inputPort iterate="false" name="s1">
+               <source processor="projectLabelDbpedia"/>
+            </inputPort>
+         </processor>
+         <processor id="projectDirName" x="331" y="17">
+            <function type="nrc-record-project">
+               <config param="projectField">dir_name</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="projectLMDB"/>
+            </inputPort>
+         </processor>
+         <processor id="projectLMDB" x="170" y="121">
+            <function type="nrc-record-project">
+               <config param="projectField">lmdb</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="mov_dir"/>
+            </inputPort>
+         </processor>
+         <processor id="projectLabelDbpedia" x="327" y="151">
+            <function type="nrc-record-project">
+               <config param="projectField">label</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="projectDbpedia"/>
+            </inputPort>
+         </processor>
+         <processor id="projectDbpedia" x="168" y="244">
+            <function type="nrc-record-project">
+               <config param="projectField">dbpedia</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="mov_dir"/>
+            </inputPort>
+         </processor>
+         <processor id="jaro2" x="471" y="191">
+            <function type="custom-java">
+               <config param="implementation">nl.feliksik.rdfgears.JaroSimilarityFunction</config>
+            </function>
+            <inputPort iterate="false" name="s2">
+               <source processor="projectLabelDbpedia"/>
+            </inputPort>
+            <inputPort iterate="false" name="s1">
+               <source processor="projectLabelLMDB"/>
+            </inputPort>
+         </processor>
+         <processor id="projectLabelLMDB" x="328" y="269">
+            <function type="nrc-record-project">
+               <config param="projectField">label</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="projectLMDB"/>
+            </inputPort>
+         </processor>
+         <processor id="constant0" x="635" y="239">
+            <function type="gears-constant">
+               <config param="value">"0.00"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;</config>
+            </function>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

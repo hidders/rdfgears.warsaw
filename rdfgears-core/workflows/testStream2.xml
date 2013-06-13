@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>testStream2</id>
+      <description>Runnable silk directors-example</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="filterNode" x="489" y="262">
+         <processor id="filterNode" x="530" y="92">
+            <function type="filter">
+               <config param="implementation">workflow:returnTrue</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="recordCreate"/>
+            </inputPort>
+         </processor>
+         <processor id="recordCreate" x="377" y="78">
+            <function type="record-create">
+               <config param="fields">a;b;</config>
+            </function>
+            <inputPort iterate="true" name="a">
+               <source processor="queryA"/>
+            </inputPort>
+            <inputPort iterate="true" name="b">
+               <source processor="queryB"/>
+            </inputPort>
+         </processor>
+         <processor id="queryA" x="163" y="23">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX  dbpedia: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+
+SELECT DISTINCT  (str(?label_lang) AS ?label) ?mov
+FROM &lt;Data/dbpedia.n3&gt;
+WHERE
+  { ?mov rdf:type dbpedia:Film
+    OPTIONAL
+      { ?mov dbpedia:director ?dir .
+        ?dir rdfs:label ?label_lang
+      }
+  }
+LIMIT 8000</config>
+            </function>
+         </processor>
+         <processor id="queryB" x="162" y="148">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;  
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;  
+PREFIX  movie: &lt;http://data.linkedmdb.org/resource/movie/&gt;   
+SELECT DISTINCT  ?dir ?label ?dir_name  
+FROM &lt;file:Data/lmdb.n3&gt; 
+WHERE {
+    ?dir rdf:type movie:director .
+   OPTIONAL {
+  ?dir movie:director_name ?dir_name . 
+}
+   OPTIONAL {
+  ?dir rdfs:label ?label.
+ }
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>
+
+

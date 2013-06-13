@@ -1,0 +1,18 @@
+<processor label="Get SocialID From UUID" category="Custom Java">
+	<description>
+	This is a custom java function that provides a web ID for a given UUID.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.uuid.GetSocialIDFromUUIDFunction"/>
+		</function>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+		<data iterate="false" name="type" label="Type">
+			<type><var name="type"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

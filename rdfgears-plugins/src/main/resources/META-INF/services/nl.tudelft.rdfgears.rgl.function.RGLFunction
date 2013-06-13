@@ -1,0 +1,46 @@
+#
+# Functions listed here will be loadable by RDF Gears. 
+#
+#
+
+# standard functions
+nl.tudelft.rdfgears.rgl.function.standard.MaxVal2
+nl.tudelft.rdfgears.rgl.function.standard.BagSize
+nl.tudelft.rdfgears.rgl.function.standard.Evaluate
+nl.tudelft.rdfgears.rgl.function.standard.BagToGraph
+nl.tudelft.rdfgears.rgl.function.standard.RGLtoGraph
+nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement
+nl.tudelft.rdfgears.rgl.function.standard.FetchRDF
+nl.tudelft.rdfgears.rgl.function.standard.NotNull
+nl.tudelft.rdfgears.rgl.function.standard.BuildURL
+
+# nl.feliksik.rdfgears functions
+nl.feliksik.rdfgears.JaroSimilarityFunction
+nl.feliksik.rdfgears.SplitString
+nl.feliksik.rdfgears.SubString
+nl.feliksik.rdfgears.BagTopFunction
+
+
+# imreal stuff
+nl.tudelft.rdfgears.rgl.function.imreal.TwitterLanguageDetector
+nl.tudelft.rdfgears.rgl.function.imreal.CoordinatesToCountry
+nl.tudelft.rdfgears.rgl.function.imreal.FlickrPhotoLocator
+nl.tudelft.rdfgears.rgl.function.imreal.TweetSentiments
+nl.tudelft.rdfgears.rgl.function.imreal.CulturalAwarenessLng
+nl.tudelft.rdfgears.rgl.function.imreal.HofstedeIndex
+nl.tudelft.rdfgears.rgl.function.imreal.StringInBag
+nl.tudelft.rdfgears.rgl.function.imreal.StringIsEqualTo
+nl.tudelft.rdfgears.rgl.function.imreal.UserProfileFunction
+nl.tudelft.rdfgears.rgl.function.imreal.ExpressionEvaluation
+
+nl.tudelft.rdfgears.rgl.function.imreal.uuid.ListSocialIDsFunction
+nl.tudelft.rdfgears.rgl.function.imreal.uuid.RegisterSocialIDFunction
+nl.tudelft.rdfgears.rgl.function.imreal.uuid.RegisterUUIDFunction
+
+nl.tudelft.rdfgears.rgl.function.imreal.uuid.GetSocialIDFromUUIDFunction
+nl.tudelft.rdfgears.rgl.function.imreal.userprofile.SetUserProfileEntryFunction
+nl.tudelft.rdfgears.rgl.function.imreal.userprofile.GetUserProfileEntryFunction
+nl.tudelft.rdfgears.rgl.function.imreal.userprofile.ContainsUserProfileEntryFunction
+
+nl.tudelft.rdfgears.rgl.function.imreal.sentiment_analysis.SentimentAnalysisFunction
+

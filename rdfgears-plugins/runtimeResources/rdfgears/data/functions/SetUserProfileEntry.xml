@@ -1,0 +1,21 @@
+<processor label="Set User Profile Entry" category="Custom Java">
+	<description>
+	This is a custom java function that stores user profile entries into the database.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.userprofile.SetUserProfileEntryFunction"/>
+		</function>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+		<data iterate="false" name="topic" label="Topic">
+			<type><var name="topic"/></type>
+		</data>
+		<data iterate="false" name="value" label="Value">
+			<type><var name="value"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

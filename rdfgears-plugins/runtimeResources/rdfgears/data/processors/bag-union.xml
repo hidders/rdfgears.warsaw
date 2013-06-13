@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="bag union" category="Bag functions">
+<description> Merges two bags with the same type, into one new bag </description>
+<inputs> 
+<function type="bag-union"/>
+<data name="bag1" label="Bag 1" iterate="false">
+<type>
+<bag>
+<var name="bagType"/>
+</bag>
+</type>
+</data> 
+<data name="bag2" label="Bag 2" iterate="false">
+<type>
+<bag>
+<var name="bagType"/>
+</bag>
+</type>
+</data>
+</inputs>
+<output>
+<type>
+<bag> 
+<var name="bagType"/> 
+</bag>
+</type>
+</output>
+</processor>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>testGroupBy</id>
+      <description>Runnable silk directors-example</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_523" x="412" y="464">
+         <processor id="node_523" x="402" y="104">
+            <function type="bag-groupby">
+               <config param="groupByField">dir;</config>
+            </function>
+            <inputPort iterate="false" name="bag_of_records">
+               <source processor="z_mk_9k"/>
+            </inputPort>
+         </processor>
+         <processor id="z_mk_9k" x="162" y="121">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; 
+PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt; 
+SELECT DISTINCT (str(?label_lang) AS ?label) ?mov ?dir
+FROM  &lt;file:Data/dbpedia.n3&gt; WHERE {
+      ?mov rdf:type dbpedia:Film.
+   OPTIONAL {
+      ?mov dbpedia:director ?dir.
+     ?dir rdfs:label ?label_lang.
+   }
+} ORDER BY ?mov
+LIMIT 100</config>
+            </function>
+         </processor>
+         <processor id="z_mk_jj" x="162" y="5">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;  PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;  PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt;  SELECT DISTINCT (str(?label_lang) AS ?label) ?mov   FROM  &lt;file:Data/dbpedia.n3&gt; WHERE {       ?mov rdf:type dbpedia:Film.    OPTIONAL {       ?mov dbpedia:director ?dir.      ?dir rdfs:label ?label_lang.    } } ORDER BY ?mov LIMIT 100</config>
+            </function>
+         </processor>
+         <processor id="node_121" x="252" y="256">
+            <function type="constant">
+               <config param="value">"apple"@en</config>
+            </function>
+         </processor>
+         <processor id="node_120" x="254" y="328">
+            <function type="constant">
+               <config param="value">"1.234"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_122" x="261" y="394">
+            <function type="constant">
+               <config param="value">&lt;http://dbpedia.org/&gt;</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

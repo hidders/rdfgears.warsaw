@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-takeCountryGuess</id>
+	  <name>takeCountryGuess</name>
+	  <category>imreal-util</category>
+      <description>A helper service that determines if the country based on the estimated location or the true location should be chosen. If the image is geo-tagged, the true country is used, otherwise the estimate is used.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="105" y="78">
+         <workflowInputPort name="enrichedPhotos"/>
+      </workflowInputList>
+      <network output="node_120" x="817" y="542">
+         <processor id="node_120" x="920" y="301">
+            <function type="record-create">
+               <config param="fields">country;photo;</config>
+            </function>
+            <inputPort iterate="false" name="country">
+               <source processor="node_119"/>
+            </inputPort>
+            <inputPort iterate="false" name="photo">
+               <source processor="node_116"/>
+            </inputPort>
+         </processor>
+         <processor id="node_119" x="854" y="107">
+            <function type="if"/>
+            <inputPort iterate="false" name="if_true">
+               <source processor="node_117"/>
+            </inputPort>
+            <inputPort iterate="false" name="then">
+               <source processor="node_115"/>
+            </inputPort>
+            <inputPort iterate="false" name="else">
+               <source processor="node_114"/>
+            </inputPort>
+         </processor>
+         <processor id="node_117" x="637" y="53">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.StringIsEqualTo</config>
+            </function>
+            <inputPort iterate="false" name="value1">
+               <source processor="node_113"/>
+            </inputPort>
+            <inputPort iterate="false" name="value2">
+               <source processor="node_118"/>
+            </inputPort>
+         </processor>
+         <processor id="node_113" x="343" y="33">
+            <function type="record-project">
+               <config param="projectField">flickrAccuracy</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="enrichedPhotos"/>
+            </inputPort>
+         </processor>
+         <processor id="node_118" x="513" y="201">
+            <function type="constant">
+               <config param="value">"0"</config>
+            </function>
+         </processor>
+         <processor id="node_114" x="346" y="153">
+            <function type="record-project">
+               <config param="projectField">country</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="enrichedPhotos"/>
+            </inputPort>
+         </processor>
+         <processor id="node_115" x="349" y="279">
+            <function type="record-project">
+               <config param="projectField">estimatedCountry</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="enrichedPhotos"/>
+            </inputPort>
+         </processor>
+         <processor id="node_116" x="343" y="401">
+            <function type="record-project">
+               <config param="projectField">photo</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="enrichedPhotos"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,23 @@
+#
+# THESE FUNCTIONS MUST HAVE A NO-ARGUMENT CONSTRUCTOR! - Eric Feliksik
+#
+
+# standard functions
+nl.tudelft.rdfgears.rgl.function.standard.MaxVal2
+nl.tudelft.rdfgears.rgl.function.standard.Identity
+nl.tudelft.rdfgears.rgl.function.standard.InsertIntoModel
+nl.tudelft.rdfgears.rgl.function.standard.BagSize
+nl.tudelft.rdfgears.rgl.function.standard.Evaluate
+nl.tudelft.rdfgears.rgl.function.standard.BagToGraph
+nl.tudelft.rdfgears.rgl.function.standard.RGLtoGraph
+nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement
+nl.tudelft.rdfgears.rgl.function.standard.FetchRDF
+nl.tudelft.rdfgears.rgl.function.standard.NotNull
+
+# nl.feliksik.rdfgears functions
+nl.feliksik.rdfgears.JaroSimilarityFunction
+nl.feliksik.rdfgears.SplitString
+nl.feliksik.rdfgears.SubString
+nl.feliksik.rdfgears.BagTopFunction
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-plain-getAdaptiveDimensions</id>
+	  <name>getAdaptiveDimensions</name>
+	  <category>imreal-plain</category>
+      <description>Returns a list of adaptive dimensions that our services are currently able to produce output for.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="51" y="22"/>
+      <network output="node_36" x="431" y="506">
+         <processor id="node_36" x="776" y="177">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_52"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_51"/>
+            </inputPort>
+         </processor>
+         <processor id="node_52" x="530" y="18">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_2"/>
+            </inputPort>
+         </processor>
+         <processor id="node_2" x="322" y="19">
+            <function type="constant">
+               <config param="value">"Culture"</config>
+            </function>
+         </processor>
+         <processor id="node_51" x="535" y="132">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_5"/>
+            </inputPort>
+         </processor>
+         <processor id="node_5" x="245" y="100">
+            <function type="constant">
+               <config param="value">"Emotion"</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

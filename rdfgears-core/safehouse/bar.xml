@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>bar</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_6" x="450" y="450">
+         <processor id="node_6" x="218" y="111">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:8890/sparql</config>
+               <config param="query">select ?c where {
+  ?b &lt;http://chem2bio2rdf.org/uniprot/resource/gi&gt; ?c}</config>
+                <config param="bindVariables">b</config>
+            </function>
+            <inputPort iterate="false" name="b">
+               <source processor="node_7"/>
+            </inputPort>
+         </processor>
+         <processor id="node_7" x="63" y="299">
+            <function type="constant">
+               <config param="value">&lt;http://chem2bio2rdf.org/uniprot/resource/uniprot/P19327&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_8" x="260" y="284">
+            <function type="sparql">
+               <config param="bindVariables">input0;</config>
+               <config param="query"/>
+            </function>
+            <inputPort iterate="false" name="input0">
+               <source processor="node_7"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-uuidCulturalCompetency</id>
+	  <name>uuidCulturalCompetency</name>
+	  <category>imreal-usem-simple</category>
+      <description>Given a UUID, the language and image based cultural competency are computed and an average score of the two (or a max or a sum) is returned.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="14" y="81">
+         <workflowInputPort name="UUID"/>
+      </workflowInputList>
+      <network output="node_13" x="1136" y="266">
+         <processor id="node_13" x="1082" y="37">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.UserProfileFunction</config>
+            </function>
+            <inputPort iterate="false" name="rdf:about">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+            <inputPort iterate="false" name="wi:topic">
+               <source processor="node_14"/>
+            </inputPort>
+            <inputPort iterate="false" name="wo:weight">
+               <source processor="node_12"/>
+            </inputPort>
+         </processor>
+         <processor id="node_14" x="878" y="141">
+            <function type="constant">
+               <config param="value">"Culture"</config>
+            </function>
+         </processor>
+         <processor id="node_12" x="890" y="247">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.ExpressionEvaluation</config>
+            </function>
+            <inputPort iterate="false" name="a">
+               <source processor="node_68"/>
+            </inputPort>
+            <inputPort iterate="false" name="b">
+               <source processor="node_67"/>
+            </inputPort>
+            <inputPort iterate="false" name="expression">
+               <source processor="node_13_"/>
+            </inputPort>
+         </processor>
+         <processor id="node_68" x="723" y="159">
+            <function type="record-project">
+               <config param="projectField">wv</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="node_66"/>
+            </inputPort>
+         </processor>
+         <processor id="node_66" x="562" y="159">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_3"/>
+            </inputPort>
+         </processor>
+         <processor id="node_3" x="366" y="151">
+            <function type="sparql">
+               <config param="bindVariables">input0;</config>
+               <config param="query"> PREFIX  wo:  &lt;http://purl.org/ontology/wo/core#&gt;
+SELECT ?wv
+WHERE { GRAPH ?inpu0 { ?x wo:weight_value ?wv . } }</config>
+            </function>
+            <inputPort iterate="false" name="input0">
+               <source processor="node_38"/>
+            </inputPort>
+         </processor>
+         <processor id="node_38" x="193" y="157">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-usem-simple-uuidCulturalCompetencyImg</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_67" x="721" y="299">
+            <function type="record-project">
+               <config param="projectField">wv</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="node_65"/>
+            </inputPort>
+         </processor>
+         <processor id="node_65" x="557" y="299">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_5"/>
+            </inputPort>
+         </processor>
+         <processor id="node_5" x="374" y="299">
+            <function type="sparql">
+               <config param="bindVariables">input0;</config>
+               <config param="query"> PREFIX  wo:  &lt;http://purl.org/ontology/wo/core#&gt; SELECT ?wv
+WHERE { GRAPH ?inpu0 { ?x wo:weight_value ?wv . } }</config>
+            </function>
+            <inputPort iterate="false" name="input0">
+               <source processor="node_37"/>
+            </inputPort>
+         </processor>
+         <processor id="node_37" x="193" y="262">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-usem-simple-uuidCulturalCompetencyLng</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_13_" x="652" y="536">
+            <function type="constant">
+               <config param="value">"(a+b)/2.0"</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="record create" category="Record functions">
+<description>Create Record</description>
+<inputs>
+<function type="record-create"> 
+<param name="fields" type="InputFields" label="Record Fields"/>
+</function> 
+</inputs> 
+<output> 
+<type>
+<var name="output"/>
+</type>
+</output>
+</processor>

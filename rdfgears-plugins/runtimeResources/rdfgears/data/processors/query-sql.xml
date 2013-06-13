@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="Query SQL" category="Querying">
+	<description>Write SQL Query, bind the variables in the query to the
+		input fields</description>
+	<inputs>
+		<function type="query-sql">
+			<param name="databaseURL" type="String" label="Database URL"/>
+			<param name="userName" type="String" label="Username"/>
+			<param name="password" type="String" label="Password"/>
+			<param name="inputSpec" type="String" label="Input Specification"/>
+			<param name="outputSpec" type="String" label="Output Specification"/>
+			<param name="bindVariables" type="InputFields" label="Variables" />
+			<param name="query" label="Query" type="Query">
+				<description>
+					Write SQL Query
+				</description>
+			</param>
+		</function>
+	</inputs>
+	<output>
+		<type>
+			<var name="output" />
+		</type>
+	</output>
+</processor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.nl.tudelft.rdfgearsUI.RdfGearsUi' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/RdfGearsUi/greet" class="com.nl.tudelft.rdfgearsUI.server.GreetingServiceImpl" />
+
+</module>

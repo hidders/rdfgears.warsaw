@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="Comparator" category="Other">
+<description>Comparator functions</description>
+<inputs>
+<function type="comparator">
+<param name="operator" type="List" label="Operator">
+<source>
+<option value="OP_LESS" label="a &lt; b"/>
+<option value="OP_LESS_EQUAL" label="a &lt;= b"/>
+<option value="OP_GREATER" label="a &gt; b"/>
+<option value="OP_GREATER_EQUAL" label="a &lt;= b"/>
+<option value="OP_EQUAL" label="a == b"/>
+<option value="OP_NOT_EQUAL" label="a != b"/>
+</source>
+</param>
+</function>
+<data name="a" label="a" iterate="false">
+<type>
+<var name="a"/>
+</type>
+</data> 
+<data name="b" label="b" iterate="false">
+<type>
+<var name="b"/>
+</type>
+</data> 
+</inputs>
+<output>
+<type>
+<bool/>
+</type>
+</output>
+</processor>
+
+

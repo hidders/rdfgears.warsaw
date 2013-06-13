@@ -1,0 +1,23 @@
+<processor label="Coordinates to Country" category="Custom Java">
+<description>
+This is a custom java function that accept coordinate as 
+try new line here with desc 
+input and retun country name as output
+</description>
+<inputs>
+<function type="custom-java"> 
+<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.CoordinatesToCountry"/>
+</function>
+<data iterate="false" name="longitude" label="Longitude">
+<type><int/></type>
+</data> 
+<data iterate="false" name="latitude" label="Latitude">
+<type><int/></type>
+</data>
+<data iterate="false" name="geonames_user" label="Geonames User">
+<type><var name="user"/></type>
+</data>
+</inputs> 
+<output/>
+</processor>
+

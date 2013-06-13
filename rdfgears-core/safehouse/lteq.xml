@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>lteq</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_9" x="450" y="450">
+         <processor id="node_9" x="257" y="99">
+            <function type="comparator">
+               <config param="operator">OP_LESS_EQUAL</config>
+            </function>
+            <inputPort iterate="false" name="a">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+            <inputPort iterate="false" name="b">
+               <source processor="node_10"/>
+            </inputPort>
+         </processor>
+         <processor id="node_10" x="21" y="210">
+            <function type="constant">
+               <config param="value">"1.23"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

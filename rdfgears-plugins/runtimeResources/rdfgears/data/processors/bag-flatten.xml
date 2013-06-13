@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="bag flatten" category="Bag functions">
+<description> Takes a bag of bags and return the union of all contained bags</description>
+<inputs> 
+<function type="bag-flatten"/>
+<data name="bag" label="Bag" iterate="false">
+<type>
+<bag>
+<bag>
+<var name="bagType"/>
+</bag>
+</bag>
+</type>
+</data> 
+</inputs>
+<output>
+<type>
+<bag> 
+<var name="bagType"/> 
+</bag>
+</type>
+</output>
+</processor>
+

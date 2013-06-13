@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>extractData/createBagFromRecords</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="value1"/>
+         <workflowInputPort name="value2"/>
+         <workflowInputPort name="value3"/>
+         <workflowInputPort name="value4"/>
+      </workflowInputList>
+      <network output="node_212" x="450" y="343">
+         <processor id="node_212" x="502" y="172">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_211"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_214"/>
+            </inputPort>
+         </processor>
+         <processor id="node_211" x="370" y="109">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_206"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_209"/>
+            </inputPort>
+         </processor>
+         <processor id="node_206" x="221" y="63">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source workflowInputPort="value1"/>
+            </inputPort>
+         </processor>
+         <processor id="node_209" x="221" y="147">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source workflowInputPort="value2"/>
+            </inputPort>
+         </processor>
+         <processor id="node_214" x="367" y="230">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_210"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_213"/>
+            </inputPort>
+         </processor>
+         <processor id="node_210" x="218" y="229">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source workflowInputPort="value3"/>
+            </inputPort>
+         </processor>
+         <processor id="node_213" x="217" y="317">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source workflowInputPort="value4"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

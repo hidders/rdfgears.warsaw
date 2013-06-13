@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style type='com.nl.tudelft.rdfgearsUI.client.Dia.RGWorkflowsPanel.PanelStyle'>
+		.panelHidden{
+			display: none;
+		}
+		.panelVisible{
+			display: block;
+		}
+		.tabHeaderContainer {
+			display: block;
+			padding-left:5px;
+		}
+		.tabHeader{
+			display: inline-block;
+			/*width:100px;*/
+			text-align: center;
+			margin-right:2px;
+			cursor: default;
+			border: 1px solid #E0E0E7;
+			padding: 4px;
+		}
+		.tabHeaderSelected{
+			background-color: #E0E0E7;	
+		}
+		.tabHeaderNormal{
+			background:white;
+			color: grey;
+		}
+		.content{
+			cursor: default;
+			padding:5px;
+			overflow:auto;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:HTMLPanel ui:field="tabHeaderContainer">
+			<g:Label styleName="{style.tabHeader}" ui:field="workflowsTab">
+				Workflows
+			</g:Label>
+			<g:Label styleName="{style.tabHeader}" ui:field="operatorsTab">
+				Operators
+			</g:Label>
+			<g:Label styleName="{style.tabHeader}" ui:field="functionsTab">
+				Functions
+			</g:Label>
+		</g:HTMLPanel>
+		<g:HTMLPanel ui:field="content" styleName="{style.content}">
+			<!-- Some content here  -->
+		</g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,51 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.logPanel {
+			position:absolute;
+			background:white;
+			left:253px;
+			bottom:0;
+			right:303px;
+			height: 250px;
+			-webkit-box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+			-moz-box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+			box-shadow: 0 -1px 4px rgba(0,0,0,0.2);
+			overflow: hidden;
+			z-index: 10001;
+			
+		}
+		.header{
+			height: 25px;
+			background-color: #EEE;
+			padding-left: 5px;
+		}
+		.header-label{
+			width: 200px;
+		}
+		.content {
+			overflow: auto;
+			font-size: 85%;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		.minButton {
+			position:absolute;
+			right:5px;
+			top:1px;
+			width:20px;
+			height:20px;
+			background-image: url('images/up-grey.png');
+		}
+	</ui:style>
+	<g:HTMLPanel styleName="{style.logPanel}">
+		<g:HTMLPanel styleName="{style.header}">
+			<g:Label styleName="{style.header-label}">Type Checking Log</g:Label>
+			<g:Label ui:field="minButton" styleName="{style.minButton}"></g:Label>
+		</g:HTMLPanel>
+		<g:HTMLPanel ui:field="content" styleName="{style.content}">
+		
+		</g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

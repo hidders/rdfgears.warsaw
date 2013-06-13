@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="If/then/else" category="Other">
+<description>If then else condition</description>
+<inputs>
+<function type="if"/>
+<data name="if_true" label="if true" iterate="false">
+<type>
+<bool/>
+</type>
+</data> 
+<data name="then" label="then" iterate="false">
+<type>
+<var name="then"/>
+</type>
+</data>
+<data name="else" label="else" iterate="false">
+<type>
+<var name="else"/>
+</type>
+</data>  
+</inputs>
+<output>
+<type>
+<var name="result"/>
+</type>
+</output>
+</processor>
+
+

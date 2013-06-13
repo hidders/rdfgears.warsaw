@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-plain-containsUserProfileEntry</id>
+	  <name>containsUserProfileEntry</name>
+	  <category>imreal-plain</category>
+      <description>A service that takes a UUID and a topic as input and checks if a value is stored in the user profile with respect to the UUID,topic pair.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="51" y="22">
+         <workflowInputPort name="UUID"/>
+         <workflowInputPort name="Topic"/>
+      </workflowInputList>
+      <network output="node_234" x="438" y="227">
+         <processor id="node_234" x="278" y="70">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.userprofile.ContainsUserProfileEntryFunction</config>
+            </function>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+            <inputPort iterate="false" name="topic">
+               <source workflowInputPort="Topic"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

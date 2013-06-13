@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/localConstruct</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="86" y="86">
+         <workflowInputPort name="graph"/>
+      </workflowInputList>
+      <network output="node_40" x="508" y="376">
+         <processor id="node_40" x="288" y="82">
+            <function type="sparql">
+               <config param="bindVariables">graph;</config>
+               <config param="query">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+CONSTRUCT {
+  ?dir ?p ?o.
+} WHERE {
+  GRAPH $graph {
+    ?dir ?p ?o.
+    ?dir rdfs:label ?dirlabel.
+  }
+}</config>
+            </function>
+            <inputPort iterate="false" name="graph">
+               <source workflowInputPort="graph"/>
+            </inputPort>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>2sub</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="22" y="157">
+         <workflowInputPort name="input0"/>
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_124" x="450" y="450">
+         <processor id="node_124" x="523" y="165">
+            <function type="record-create">
+               <config param="fields">gene1;gene2;compound_cid;</config>
+            </function>
+            <inputPort iterate="false" name="gene1">
+               <source processor="node_48"/>
+            </inputPort>
+            <inputPort iterate="false" name="gene2">
+               <source processor="node_122"/>
+            </inputPort>
+            <inputPort iterate="false" name="compound_cid">
+               <source processor="node_123"/>
+            </inputPort>
+         </processor>
+         <processor id="node_48" x="247" y="46">
+            <function type="record-project">
+               <config param="projectField">gene</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="input0"/>
+            </inputPort>
+         </processor>
+         <processor id="node_122" x="248" y="178">
+            <function type="record-project">
+               <config param="projectField">gene</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+         </processor>
+         <processor id="node_123" x="251" y="313">
+            <function type="record-project">
+               <config param="projectField">compound_cid</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

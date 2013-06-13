@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>SB</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_36" x="450" y="450">
+         <processor id="node_36" x="-11" y="165">
+            <function type="constant">
+               <config param="value">"false"^^&lt;http://www.w3.org/2001/XMLSchema#boolean&gt;</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

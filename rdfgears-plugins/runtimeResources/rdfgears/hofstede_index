@@ -1,0 +1,69 @@
+#Hofstede index, table taken from http://www.clearlycultural.com/geert-hofstede-cultural-dimensions/masculinity/
+#(is assumed to be in sync with the numbers on Hofstede's website (which are not easily accessible))
+#format: Country 	PDI 	IDV 	MAS 	UAI 	LTO
+Japan 	54 	46 	95 	92 	80
+Hungary 	46 	55 	88 	82 	
+Austria 	11 	55 	79 	70 	
+Venezuela 	81 	12 	73 	76 	
+Italy 	50 	76 	70 	75 	
+Switzerland 	34 	68 	70 	58 	
+Mexico 	81 	30 	69 	82 	
+Ireland 	28 	70 	68 	35 	
+Jamaica 	45 	39 	68 	13 	
+China 	80 	20 	66 	40 	118
+Germany 	35 	67 	66 	65 	31
+United Kingdom 	35 	89 	66 	35 	25
+Colombia 	67 	13 	64 	80 	
+Philippines 	94 	32 	64 	44 	19
+Poland 	68 	60 	64 	93 	
+Ecuador 	78 	8 	63 	67 	
+South Africa 	49 	65 	63 	49 	
+United States 	40 	91 	62 	46 	29
+Australia 	36 	90 	61 	51 	31
+New Zealand 	22 	79 	58 	49 	30
+Czech Republic 	57 	58 	57 	74 	
+Greece 	60 	35 	57 	112 	
+Hong Kong 	68 	25 	57 	29 	96
+Argentina 	49 	46 	56 	86 	
+India 	77 	48 	56 	40 	61
+Belgium 	65 	75 	54 	94 	
+Egypt 	80 	38 	52 	68 	
+Iraq 	80 	38 	52 	68 	
+Kuwait 	80 	38 	52 	68 	
+Lebanon 	80 	38 	52 	68 	
+Libya 	80 	38 	52 	68 	
+Saudi Arabia 	80 	38 	52 	68 	
+United Arab Emirates 	80 	38 	52 	68 	
+Malaysia 	104 	26 	50 	36 	
+Pakistan 	55 	14 	50 	70 	
+Brazil 	69 	38 	49 	76 	65
+Singapore 	74 	20 	48 	8 	48
+Israel 	13 	54 	47 	81 	
+Ghana 	77 	20 	46 	54 	16
+Indonesia 	78 	14 	46 	48 	
+Nigeria 	77 	20 	46 	54 	16
+Sierra Leone 	77 	20 	46 	54 	16
+Taiwan 	58 	17 	45 	69 	87
+Turkey 	66 	37 	45 	85 	
+Panama 	95 	11 	44 	86 	
+France 	68 	71 	43 	86 	
+Iran 	58 	41 	43 	59 	
+Peru 	64 	16 	42 	87 	
+Spain 	57 	51 	42 	86 	
+Ethiopia 	64 	27 	41 	52 	25
+Kenya 	64 	27 	41 	52 	25
+Tanzania 	64 	27 	41 	52 	25
+Zambia 	64 	27 	41 	52 	25
+El Salvador 	66 	19 	40 	94 	
+South Korea 	60 	18 	39 	85 	75
+Uruguay 	61 	36 	38 	100 	
+Guatemala 	95 	6 	37 	101 	
+Thailand 	64 	20 	34 	64 	56
+Portugal 	63 	27 	31 	104 	
+Chile 	63 	23 	28 	86 	
+Finland 	33 	63 	26 	59 	
+Costa Rica 	35 	15 	21 	86 	
+Denmark 	18 	74 	16 	23 	
+Netherlands 	38 	80 	14 	53 	44
+Norway 	31 	69 	8 	50 	20
+Sweden 	31 	71 	5 	29 	33

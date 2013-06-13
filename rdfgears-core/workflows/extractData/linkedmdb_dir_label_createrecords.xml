@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>extractData/linkedmdb_dir_label_createrecords</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="8" y="148">
+         <workflowInputPort name="solution"/>
+         <workflowInputPort name="optionalpred"/>
+      </workflowInputList>
+      <network output="node_42" x="380" y="542">
+         <processor id="node_42" x="439" y="439">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_41"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_40"/>
+            </inputPort>
+         </processor>
+         <processor id="node_41" x="599" y="25">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_198"/>
+            </inputPort>
+         </processor>
+         <processor id="node_198" x="455" y="13">
+            <function type="record-create">
+               <config param="fields">s;p;o;</config>
+            </function>
+            <inputPort iterate="false" name="s">
+               <source processor="node_199"/>
+            </inputPort>
+            <inputPort iterate="false" name="p">
+               <source processor="node_197"/>
+            </inputPort>
+            <inputPort iterate="false" name="o">
+               <source processor="node_196"/>
+            </inputPort>
+         </processor>
+         <processor id="node_199" x="70" y="31">
+            <function type="record-project">
+               <config param="projectField">b</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="solution"/>
+            </inputPort>
+         </processor>
+         <processor id="node_197" x="265" y="83">
+            <function type="constant">
+               <config param="value">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_196" x="285" y="151">
+            <function type="constant">
+               <config param="value">&lt;http://data.linkedmdb.org/resource/movie/director&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_40" x="568" y="232">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_203"/>
+            </inputPort>
+         </processor>
+         <processor id="node_203" x="438" y="209">
+            <function type="record-create">
+               <config param="fields">s;p;o;</config>
+            </function>
+            <inputPort iterate="false" name="s">
+               <source processor="node_199"/>
+            </inputPort>
+            <inputPort iterate="false" name="p">
+               <source workflowInputPort="optionalpred"/>
+            </inputPort>
+            <inputPort iterate="false" name="o">
+               <source processor="node_200"/>
+            </inputPort>
+         </processor>
+         <processor id="node_200" x="107" y="260">
+            <function type="record-project">
+               <config param="projectField">v0</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="solution"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

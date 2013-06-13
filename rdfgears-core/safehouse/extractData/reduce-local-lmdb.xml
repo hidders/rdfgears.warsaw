@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>extractData/reduce-local-lmdb</id>
+      <description>Reduce the local dbpedia datasize, using construct query</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_80" x="347" y="342">
+         <processor id="node_80" x="140" y="64">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; 
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+PREFIX  movie: &lt;http://data.linkedmdb.org/resource/movie/&gt;  
+CONSTRUCT {
+   ?dir rdf:type movie:director .
+   ?dir movie:director_name ?dir_name . 
+   ?dir rdfs:label ?label. 
+}
+FROM &lt;file:Data/lmdb.n3&gt;
+WHERE {
+   ?dir rdf:type movie:director .
+  OPTIONAL {  ?dir movie:director_name ?dir_name . }
+  OPTIONAL {  ?dir rdfs:label ?label. } 
+}
+LIMIT 10</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-plain-uuidHasVisitedCountry</id>
+	  <name>uuidHasVisitedCountry</name>
+	  <category>imreal-plain</category>
+      <description>The service takes a UUID as input as well as a country. The countries of the most recent 1500 images are determined and if one of them is taken in the input country, true is returned, and false otherwise.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="30" y="422">
+         <workflowInputPort name="UUID"/>
+         <workflowInputPort name="Country"/>
+      </workflowInputList>
+      <network output="node_121" x="687" y="600">
+         <processor id="node_121" x="806" y="422">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.StringInBag</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_93"/>
+            </inputPort>
+            <inputPort iterate="false" name="searchString">
+               <source workflowInputPort="Country"/>
+            </inputPort>
+         </processor>
+         <processor id="node_93" x="829" y="264">
+            <function type="record-project">
+               <config param="projectField">country</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_70"/>
+            </inputPort>
+         </processor>
+         <processor id="node_70" x="810" y="74">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-takeCountryGuess</config>
+            </function>
+            <inputPort iterate="true" name="enrichedPhotos">
+               <source processor="node_129"/>
+            </inputPort>
+         </processor>
+         <processor id="node_129" x="544" y="70">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-photoAttachCountry</config>
+            </function>
+            <inputPort iterate="true" name="photo">
+               <source processor="node_14"/>
+            </inputPort>
+         </processor>
+         <processor id="node_14" x="315" y="69">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.FlickrPhotoLocator</config>
+            </function>
+            <inputPort iterate="false" name="flickrUser">
+               <source processor="node_124"/>
+            </inputPort>
+            <inputPort iterate="false" name="twitterUser">
+               <source processor="node_134"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_124" x="60" y="21">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-getFlickrID</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_134" x="58" y="146">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-getTwitterID</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

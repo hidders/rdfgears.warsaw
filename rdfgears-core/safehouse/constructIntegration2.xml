@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>constructIntegration2</id>
+      <description>Runnable silk directors-example</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="queryDBPedia" x="697" y="307">
+         <processor id="queryDBPedia" x="241" y="12">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;  PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;  PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt;  CONSTRUCT { ?s ?p ?o } FROM  &lt;file:Data/dbpedia.n3&gt; WHERE { ?s ?p ?o }</config>
+            </function>
+         </processor>
+         <processor id="queryLMDB" x="162" y="148">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">PREFIX  rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;  
+PREFIX  rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;  
+PREFIX  movie: &lt;http://data.linkedmdb.org/resource/movie/&gt;   
+CONSTRUCT { ?s ?p ?o }
+FROM &lt;file:Data/lmdb.n3&gt; 
+WHERE {
+   ?s ?p ?o.
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

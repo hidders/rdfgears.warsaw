@@ -1,0 +1,18 @@
+<processor label="Tweet Sentiments" category="Custom Java">
+	<description>
+	This is a custom java function that computes the "average" sentiment score of a user's last 200 tweets.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.TweetSentiments"/>
+		</function>
+		<data iterate="false" name="username" label="Username">
+			<type><var name="username"/></type>
+		</data>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

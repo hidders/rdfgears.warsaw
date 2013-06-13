@@ -1,0 +1,15 @@
+<processor label="Sentiment Analysis" category="Custom Java">
+	<description>
+	This is a custom java function that performs sentiment analysis
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.sentiment_analysis.SentimentAnalysisFunction"/>
+		</function>
+		<data iterate="false" name="statement" label="Statement">
+			<type><var name="statement"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

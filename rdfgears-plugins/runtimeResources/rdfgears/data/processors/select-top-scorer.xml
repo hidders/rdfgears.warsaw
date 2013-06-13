@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="highest scoring bag element" category="Bag functions">
+<description>Bag element scoring</description>
+<inputs> 
+<function type="select-top-scorer">
+<param name="scoringFunction" type="List" label="Scoring Function">
+<source>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.Evaluate" label="Evaluate"/>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement" label="Arbitary Bag Element"/>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.NotNull" label="Not Null" />
+<option value="nl.feliksik.rdfgears.BagTopFunction" label="Bag top function" />
+<option value="workflow:aMashup" label="Workflow Mashup" />
+</source>
+</param>
+</function>
+<data name="bag" label="Bag" iterate="false">
+<type>
+<bag>
+<var name="bagType"/>
+</bag>
+</type>
+</data> 
+</inputs>
+<output>
+<type>
+<var name="bagType"/> 
+</type>
+</output>
+</processor>
+
+

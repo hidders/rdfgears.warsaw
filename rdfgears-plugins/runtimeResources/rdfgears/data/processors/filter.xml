@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="bag filtering" category="Bag functions">
+<description>Filter a bag of elements that match a certain criterion</description>
+<inputs> 
+<function type="filter">
+<param name="implementation" type="List" label="Filter">
+<source>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.Evaluate" label="Evaluate"/>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement" label="Arbitary Bag Element"/>
+<option value="nl.tudelft.rdfgears.rgl.function.standard.NotNull" label="Not Null" />
+<option value="nl.feliksik.rdfgears.BagTopFunction" label="Bag top function" />
+<option value="workflow:aMashup" label="Workflow Mashup" />
+</source>
+</param>
+</function>
+<data name="bag" label="Bag" iterate="false">
+<type>
+<bag>
+<var name="bagType"/>
+</bag>
+</type>
+</data> 
+</inputs>
+<output>
+<type>
+<bag> 
+<var name="bagType"/> 
+</bag>
+</type>
+</output>
+</processor>
+

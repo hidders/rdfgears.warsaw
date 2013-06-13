@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-TwitterSentiments</id>
+	  <name>TwitterSentiments</name>
+	  <category>imreal-usem-simple</category>
+      <description>The service collects the user's past 200 tweets, filters out retweets and determines for each tweet the conveyed emotino (positive, neutral, negative). An aggregate score (between -1 and 1) is also computed which is an estimate of the overall emotion: a value close to 1 is heavily positive, close to 0 means mostly neutral and -1 indicates very negative sentiments.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="40" y="83">
+         <workflowInputPort name="Twitter username"/>
+      </workflowInputList>
+      <network output="calcSimilarity" x="379" y="239">
+         <processor id="calcSimilarity" x="255" y="114">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.TweetSentiments</config>
+            </function>
+            <inputPort iterate="false" name="username">
+               <source workflowInputPort="Twitter username"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source processor="node_4"/>
+            </inputPort>
+         </processor>
+         <processor id="node_4" x="36" y="185">
+            <function type="constant">
+               <config param="value">""</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

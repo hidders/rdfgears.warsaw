@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-uuidTwitterLanguageDetection</id>
+	  <name>uuidTwitterLanguageDetection</name>
+	  <category>imreal-usem-simple</category>
+      <description>Given a UUID, the service collects the last 200 tweets from the Twitter account associated with the UUID and determines the language for each one of them. The output lists all observed languages including their frequency.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="43" y="31">
+         <workflowInputPort name="UUID"/>
+      </workflowInputList>
+      <network output="node_44" x="483" y="273">
+         <processor id="node_44" x="427" y="33">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.TwitterLanguageDetector</config>
+            </function>
+            <inputPort iterate="false" name="username">
+               <source processor="node_43"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_43" x="200" y="150">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-getTwitterID</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

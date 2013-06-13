@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-photoAttachCountry</id>
+	  <name>photoAttachCountry</name>
+	  <category>imreal-util</category>
+      <description>This service computes for a photo record the country of its true location (latitude/longitude) and the country of its estimatd location (estLat/estLong).</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="52" y="77">
+         <workflowInputPort name="photo"/>
+      </workflowInputList>
+      <network output="node_121" x="947" y="272">
+         <processor id="node_121" x="855" y="64">
+            <function type="record-create">
+               <config param="fields">photo;country;estimatedCountry;flickrAccuracy;</config>
+            </function>
+            <inputPort iterate="false" name="photo">
+               <source workflowInputPort="photo"/>
+            </inputPort>
+            <inputPort iterate="false" name="country">
+               <source processor="node_120"/>
+            </inputPort>
+            <inputPort iterate="false" name="estimatedCountry">
+               <source processor="node_125"/>
+            </inputPort>
+            <inputPort iterate="false" name="flickrAccuracy">
+               <source processor="node_44"/>
+            </inputPort>
+         </processor>
+         <processor id="node_120" x="648" y="125">
+            <function type="record-project">
+               <config param="projectField">country</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="calcSimilarity"/>
+            </inputPort>
+         </processor>
+         <processor id="calcSimilarity" x="422" y="94">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.CoordinatesToCountry</config>
+            </function>
+            <inputPort iterate="false" name="longitude">
+               <source processor="node_118"/>
+            </inputPort>
+            <inputPort iterate="false" name="latitude">
+               <source processor="node_117"/>
+            </inputPort>
+            <inputPort iterate="false" name="geonames_user">
+               <source processor="node_119"/>
+            </inputPort>
+         </processor>
+         <processor id="node_118" x="234" y="82">
+            <function type="record-project">
+               <config param="projectField">longitude</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="photo"/>
+            </inputPort>
+         </processor>
+         <processor id="node_117" x="234" y="202">
+            <function type="record-project">
+               <config param="projectField">latitude</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="photo"/>
+            </inputPort>
+         </processor>
+         <processor id="node_119" x="227" y="325">
+            <function type="constant">
+               <config param="value">"jasper.oosterman"</config>
+            </function>
+         </processor>
+         <processor id="node_125" x="650" y="461">
+            <function type="record-project">
+               <config param="projectField">country</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source processor="node_124"/>
+            </inputPort>
+         </processor>
+         <processor id="node_124" x="428" y="451">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.CoordinatesToCountry</config>
+            </function>
+            <inputPort iterate="false" name="longitude">
+               <source processor="node_123"/>
+            </inputPort>
+            <inputPort iterate="false" name="latitude">
+               <source processor="node_122"/>
+            </inputPort>
+            <inputPort iterate="false" name="geonames_user">
+               <source processor="node_119"/>
+            </inputPort>
+         </processor>
+         <processor id="node_123" x="234" y="437">
+            <function type="record-project">
+               <config param="projectField">estimatedLong</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="photo"/>
+            </inputPort>
+         </processor>
+         <processor id="node_122" x="237" y="551">
+            <function type="record-project">
+               <config param="projectField">estimatedLat</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="photo"/>
+            </inputPort>
+         </processor>
+         <processor id="node_44" x="562" y="265">
+            <function type="record-project">
+               <config param="projectField">flickrAccuracy</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="photo"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

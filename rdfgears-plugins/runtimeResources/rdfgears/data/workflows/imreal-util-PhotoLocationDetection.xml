@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-PhotoLocationDetection</id>
+	  <name>PhotoLocationDetection</name>
+	  <category>imreal-util</category>
+      <description>The service takes a Flickr ID as input (either username or NSID) and collects the most recent 1500 images. For each image, the geographic location is estimated. If available, the true location and the estimation error in km is also emitted.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="39" y="41">
+         <workflowInputPort name="Flickr username"/>
+         <workflowInputPort name="Twitter username"/>
+      </workflowInputList>
+      <network output="calcSimilarity" x="379" y="239">
+         <processor id="calcSimilarity" x="265" y="69">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.FlickrPhotoLocator</config>
+            </function>
+            <inputPort iterate="false" name="flickrUser">
+               <source workflowInputPort="Flickr username"/>
+            </inputPort>
+            <inputPort iterate="false" name="twitterUser">
+               <source workflowInputPort="Twitter username"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source processor="node_4"/>
+            </inputPort>
+         </processor>
+         <processor id="node_4" x="36" y="185">
+            <function type="constant">
+               <config param="value">""</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

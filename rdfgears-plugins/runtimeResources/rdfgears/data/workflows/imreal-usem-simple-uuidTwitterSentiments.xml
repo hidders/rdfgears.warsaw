@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-uuidTwitterSentiments</id>
+	  <name>uuidTwitterSentiments</name>
+	  <category>imreal-usem-simple</category>
+      <description>The service takes a UUID as input, computes the corresponding Twitter ID and collects the user's past 200 tweets, filters out retweets and determines for each tweet the conveyed emotino (positive, neutral, negative). An aggregate score (between -1 and 1) is also computed which is an estimate of the overall emotion: a value close to 1 is heavily positive, close to 0 means mostly neutral and -1 indicates very negative sentiments.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="34" y="33">
+         <workflowInputPort name="UUID"/>
+      </workflowInputList>
+      <network output="node_33" x="569" y="323">
+         <processor id="node_33" x="410" y="137">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.TweetSentiments</config>
+            </function>
+            <inputPort iterate="false" name="username">
+               <source processor="node_32"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+         <processor id="node_32" x="238" y="29">
+            <function type="custom-java">
+               <config param="implementation">workflow:imreal-util-getTwitterID</config>
+            </function>
+            <inputPort iterate="false" name="UUID">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

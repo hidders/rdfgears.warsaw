@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>bb</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_83" x="536" y="472">
+         <processor id="node_83" x="367" y="365">
+            <function type="bag-groupby">
+               <config param="groupByField">compound_cid</config>
+            </function>
+            <inputPort iterate="false" name="bag_of_records">
+               <source processor="node_82"/>
+            </inputPort>
+         </processor>
+         <processor id="node_82" x="145" y="357">
+            <function type="filter">
+               <config param="implementation">workflow:fields_eq</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_81"/>
+            </inputPort>
+         </processor>
+         <processor id="node_81" x="856" y="125">
+            <function type="record-create">
+               <config param="fields">field_name;input0;input1;</config>
+            </function>
+            <inputPort iterate="false" name="field_name">
+               <source processor="node_19"/>
+            </inputPort>
+            <inputPort iterate="false" name="input0">
+               <source processor="node_17"/>
+            </inputPort>
+            <inputPort iterate="false" name="input1">
+               <source processor="node_18"/>
+            </inputPort>
+         </processor>
+         <processor id="node_19" x="598" y="12">
+            <function type="record-project">
+               <config param="projectField">gene</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_13"/>
+            </inputPort>
+         </processor>
+         <processor id="node_13" x="395" y="8">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:8890/sparql</config>
+               <config param="query">PREFIX drugbank: &lt;http://chem2bio2rdf.org/drugbank/resource/&gt;
+
+select ?gene FROM &lt;http://chem2bio2rdf.org/drugbank&gt; WHERE {
+?drugbank_interaction drugbank:gene ?gene .
+ ?drugbank_interaction drugbank:DBID ?drugbank_drug .
+ ?drugbank_drug drugbank:Generic_Name ?drug_name .
+ FILTER (?drug_name="Dexamethasone") .
+}</config>
+            </function>
+         </processor>
+         <processor id="node_17" x="598" y="117">
+            <function type="record-project">
+               <config param="projectField">gene</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_46"/>
+            </inputPort>
+         </processor>
+         <processor id="node_46" x="402" y="137">
+            <function type="custom-java">
+               <config param="implementation">workflow:1sub</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_41"/>
+            </inputPort>
+         </processor>
+         <processor id="node_41" x="154" y="134">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:8890/sparql</config>
+               <config param="query">PREFIX pubchem: &lt;http://chem2bio2rdf.org/pubchem/resource/&gt;
+
+select ?gi ?compound_cid FROM &lt;http://chem2bio2rdf.org/pubchem&gt; where {
+  ?bioassay pubchem:CID ?compound_cid .
+  ?bioassay pubchem:outcome ?activity .
+  FILTER (?activity=2) .
+  ?bioassay pubchem:Score ?score .
+   FILTER (?score&gt;50) .
+  ?bioassay pubchem:gi ?gi .
+}</config>
+            </function>
+         </processor>
+         <processor id="node_18" x="600" y="252">
+            <function type="record-project">
+               <config param="projectField">compound_cid</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="node_46"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

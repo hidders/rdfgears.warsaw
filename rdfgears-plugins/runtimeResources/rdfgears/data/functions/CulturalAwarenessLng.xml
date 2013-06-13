@@ -1,0 +1,21 @@
+<processor label="Cultural Awareness Based on Languages" category="Custom Java">
+	<description>
+	This is a custom java function that based on the number of languages detected in tweets, a cultural awareness value is returned
+   0 if only 1 language is detected
+   1 if 2 languages are detected
+   2 if 3+ languages are detected
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.CulturalAwarenessLng"/>
+		</function>
+		<data iterate="false" name="username" label="Username">
+			<type><var name="username"/></type>
+		</data>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

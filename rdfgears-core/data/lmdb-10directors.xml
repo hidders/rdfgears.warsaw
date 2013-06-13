@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:movie="http://data.linkedmdb.org/resource/movie/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/1">
+    <movie:director_name>Chris Morris</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/2">
+    <movie:director_name>Cecil B. DeMille</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/3">
+    <movie:director_name>Michael Mann</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/4">
+    <movie:director_name>Mustafa AltÄ±oklar</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/5">
+    <movie:director_name>Robert J. Flaherty</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/6">
+    <movie:director_name>Rex Ingram</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/7">
+    <movie:director_name>William Dickson</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/8">
+    <movie:director_name>Andrzej Å»uÅawski</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/9">
+    <movie:director_name>Max Reinhardt</movie:director_name>
+  </movie:director>
+  <movie:director rdf:about="http://data.linkedmdb.org/resource/director/10">
+    <movie:director_name>Willis O'Brien</movie:director_name>
+  </movie:director>
+</rdf:RDF>

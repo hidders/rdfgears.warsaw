@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>n0ar</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_5" x="450" y="450">
+         <processor id="node_5" x="230" y="90">
+            <function type="custom-java">
+               <config param="implementation">workflow:0ar</config>
+            </function>
+            <inputPort iterate="false" name="input1"/>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

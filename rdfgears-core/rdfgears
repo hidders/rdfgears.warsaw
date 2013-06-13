@@ -1,0 +1,46 @@
+# RDF Gears executable script
+# 
+# (c) 2011, Eric Feliksik
+#
+#
+# Tested on bash, GNU/Linux
+# 
+# Needs to be tested for MacOS
+# We need a script for Windows, too. 
+# 
+
+
+# get relative/absolute path of this executable based on the command
+DIR=`dirname $0` 
+
+LIBDIR=${DIR}/lib
+
+# set classpath
+CLASSPATH=.
+CLASSPATH=$CLASSPATH:$DIR/bin/
+
+CLASSPATH=$CLASSPATH:$LIBDIR/arq-2.8.7.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/icu4j-3.4.4.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/iri-0.8.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/jena-2.6.4.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/junit-4.8.2.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/log4j-1.2.14.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/lucene-core-2.3.1.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/slf4j-api-1.5.8.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/slf4j-log4j12-1.5.8.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/stax-api-1.0.1.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/tdb-0.8.10.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/wstx-asl-3.2.9.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/xercesImpl-2.7.1.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/jewelcli-0.6.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/servlet-api-2.5.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/jetty-all-7.0.2.v20100331.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/stax-utils.jar
+CLASSPATH=$CLASSPATH:$LIBDIR/je-4.1.10.jar
+
+
+# For now, just cd into the directory, as it's the only way we can 
+# find the options file
+cd $DIR 
+
+java -ea -Xmx750m -cp $CLASSPATH nl.tudelft.rdfgears.engine.RDFGears $@ 

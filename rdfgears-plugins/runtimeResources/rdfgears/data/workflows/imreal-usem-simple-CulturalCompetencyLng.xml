@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-simple-CulturalCompetencyLng</id>
+	  <name>CulturalCompetencyLng</name>
+	  <category>imreal-usem-simple</category>
+      <description>Based on the number of languages detected in a user's tweets, a cultural competency score of either 1.0, 2.0 or 3.0 is returned. Only languages that occur in at least 5 tweets are considered. 1 detected language (score 1), 2-3 detected languages (score 2), else score 3.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="48" y="45">
+         <workflowInputPort name="Twitter username"/>
+      </workflowInputList>
+      <network output="node_628" x="379" y="239">
+         <processor id="node_628" x="244" y="83">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.CulturalAwarenessLng</config>
+            </function>
+            <inputPort iterate="false" name="username">
+               <source workflowInputPort="Twitter username"/>
+            </inputPort>
+            <inputPort iterate="false" name="uuid">
+               <source processor="node_4"/>
+            </inputPort>
+         </processor>
+         <processor id="node_4" x="36" y="185">
+            <function type="constant">
+               <config param="value">""</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-getFlickrID</id>
+	  <name>getFlickrID</name>
+	  <category>imreal-util</category>
+      <description>A helper service that retrieves the Flickr ID from a given UUID.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="32" y="61">
+         <workflowInputPort name="UUID"/>
+      </workflowInputList>
+      <network output="node_110" x="447" y="248">
+         <processor id="node_110" x="254" y="65">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.uuid.GetSocialIDFromUUIDFunction</config>
+            </function>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+            <inputPort iterate="false" name="type">
+               <source processor="node_109"/>
+            </inputPort>
+         </processor>
+         <processor id="node_109" x="20" y="187">
+            <function type="constant">
+               <config param="value">"Flickr"</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

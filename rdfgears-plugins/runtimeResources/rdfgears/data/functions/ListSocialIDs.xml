@@ -1,0 +1,15 @@
+<processor label="List SocialIDs" category="Custom Java">
+	<description>
+	This is a custom java function that provides a list of web IDs for a given UUID.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.uuid.ListSocialIDsFunction"/>
+		</function>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

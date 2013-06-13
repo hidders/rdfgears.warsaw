@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-util-coordinatesToCountry</id>
+	  <name>coordinatesToCountry</name>
+	  <category>imreal-util</category>
+      <description>A helper service that takes a latitude/longitude pair as input and emits the country his point is found in (relies on a web service provided by Geonames).</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="39" y="83">
+         <workflowInputPort name="lon"/>
+         <workflowInputPort name="lat"/>
+      </workflowInputList>
+      <network output="calcSimilarity" x="379" y="239">
+         <processor id="calcSimilarity" x="266" y="70">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.CoordinatesToCountry</config>
+            </function>
+            <inputPort iterate="false" name="longitude">
+               <source workflowInputPort="lon"/>
+            </inputPort>
+            <inputPort iterate="false" name="latitude">
+               <source workflowInputPort="lat"/>
+            </inputPort>
+            <inputPort iterate="false" name="geonames_user">
+               <source processor="node_4"/>
+            </inputPort>
+         </processor>
+         <processor id="node_4" x="38" y="203">
+            <function type="constant">
+               <config param="value">"jasper.oosterman"</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>emptyBag</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_93" x="450" y="450">
+         <processor id="node_93" x="493" y="328">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_104"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_104"/>
+            </inputPort>
+         </processor>
+         <processor id="node_104" x="494" y="216">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_103"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_103"/>
+            </inputPort>
+         </processor>
+         <processor id="node_103" x="666" y="196">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_91"/>
+            </inputPort>
+         </processor>
+         <processor id="node_91" x="525" y="65">
+            <function type="filter">
+               <config param="implementation">workflow:lteq</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_90"/>
+            </inputPort>
+         </processor>
+         <processor id="node_90" x="344" y="97">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_89"/>
+            </inputPort>
+         </processor>
+         <processor id="node_89" x="160" y="109">
+            <function type="constant">
+               <config param="value">"1.234"^^&lt;http://www.w3.org/2001/XMLSchema#double&gt;
+</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

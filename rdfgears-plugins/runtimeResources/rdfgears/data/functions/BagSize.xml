@@ -1,0 +1,19 @@
+<processor label="Bag Size" category="Custom Java">
+	<description>
+	This is a custom java function that returns the bag size.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.standard.BagSize"/>
+		</function>
+		<data name="bag" label="Bag" iterate="false">
+			<type>
+				<bag>
+					<var name="bag"/>
+				</bag>
+			</type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

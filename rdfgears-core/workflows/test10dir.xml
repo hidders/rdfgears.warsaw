@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>test10dir</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="graph"/>
+      </workflowInputList>
+      <network output="node_27" x="347" y="342">
+         <processor id="node_27" x="264" y="237">
+            <function type="bag-flatten"/>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_230"/>
+            </inputPort>
+         </processor>
+         <processor id="node_230" x="379" y="88">
+            <function type="custom-java">
+               <config param="implementation">workflow:extractData/linkedmdb_dir_label_createrecords</config>
+            </function>
+            <inputPort iterate="false" name="optionalpred">
+               <source processor="node_65"/>
+            </inputPort>
+            <inputPort iterate="true" name="solution"/>
+         </processor>
+         <processor id="node_65" x="229" y="16">
+            <function type="constant">
+               <config param="value">&lt;http://data.linkedmdb.org/resource/movie/director_name&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_170" x="178" y="89">
+            <function type="sparql">
+               <config param="bindVariables">g;</config>
+               <config param="query">SELECT ?b ?v0 
+FROM $g
+WHERE {
+ 	?b &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://data.linkedmdb.org/resource/movie/director&gt; .
+ 	OPTIONAL {
+ 		?b &lt;http://data.linkedmdb.org/resource/movie/director_name&gt; ?v0 .
+ 	} 
+} LIMIT 10</config>
+            </function>
+            <inputPort iterate="false" name="g">
+               <source workflowInputPort="graph"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

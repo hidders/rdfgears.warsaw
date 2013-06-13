@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/remoteSelectError</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="z_vn_pa" x="425" y="246">
+         <processor id="z_vn_pa" x="189" y="66">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbpedia.org/sparql</config>
+               <config param="query">PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT ?mov
+WHERE {
+    ?mov &lt;http://dbpedia.org/ontology/director&gt; &lt;http://dbpedia.org/resource/David_Lynch&gt;.
+    BIND(&lt;http://someuri&gt; AS ?mov). # Valid SPARQL1.1, but virtuoso will complian
+}</config>
+            </function>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/testendpoint</id>
+      <description>Find the birthdate of EWD</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="z_vi_s8" x="415" y="269">
+         <processor id="z_vi_s8" x="352" y="103">
+            <function type="record-project">
+               <config param="projectField">date</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="z_vi_h9"/>
+            </inputPort>
+         </processor>
+         <processor id="z_vi_h9" x="125" y="121">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbpedia.org/sparql</config>
+               <config param="query">PREFIX dbprop: &lt;http://dbpedia.org/property/&gt; 
+SELECT ?person ?date WHERE {
+ 	GRAPH &lt;http://dbpedia.org&gt; {
+ 		?person dbprop:dateOfBirth ?date.
+ 		?person dbprop:name "Edsger Wybe Dijkstra"@en. 
+	}
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

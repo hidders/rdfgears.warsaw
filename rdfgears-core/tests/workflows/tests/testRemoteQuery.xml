@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>tests/testRemoteQuery</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="10">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="z_5j_3a" x="450" y="450">
+         <processor id="z_5j_3a" x="329" y="241">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbpedia.org/sparql</config>
+               <config param="query">PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt;
+SELECT DISTINCT (str(?label_lang) AS ?label) ?mov WHERE { 
+    ?mov rdf:type dbpedia:Film.
+    ?mov dbpedia:director ?dir.
+    ?dir rdfs:label ?label_lang.
+ #   BIND(str(?label_lang) AS ?labsel).
+} 
+#ORDER BY ?mov ?dir
+LIMIT 1000</config>
+            </function>
+         </processor>
+      </network>
+      <parameters/>
+   </workflow>
+</rdfgears>

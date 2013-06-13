@@ -1,0 +1,21 @@
+<processor label="User Profile" category="Custom Java">
+	<description>
+	This is a custom java function that enables the workflow-based output be wrapped into the U-Sem format.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.UserProfileFunction"/>
+		</function>
+		<data iterate="false" name="wo:weight" label="wo:weight">
+			<type><var name="wo:weight"/></type>
+		</data>
+		<data iterate="false" name="wi:topic" label="wi:topic">
+			<type><var name="wi:topic"/></type>
+		</data>
+		<data iterate="false" name="rdf:about" label="rdf:about">
+			<type><var name="rdf:about"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

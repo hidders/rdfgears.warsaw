@@ -1,0 +1,19 @@
+<processor label="Arbitrary Bag Element" category="Custom Java">
+	<description>
+	This is a custom java function that gets some element (first we can find) from a bag.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.standard.ArbitraryBagElement"/>
+		</function>
+		<data name="bag" label="Bag" iterate="false">
+			<type>
+				<bag>
+					<var name="bag"/>
+				</bag>
+			</type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

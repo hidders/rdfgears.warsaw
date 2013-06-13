@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-plain-getHofstedeIndex</id>
+	  <name>getHofstedeIndex</name>
+	  <category>imreal-plain</category>
+      <description>The service takes as input a country and a dimension (one of {pdi,idv,mas,uai,lto}) and returns the score the country achieves in the Hofstede index. A negative score indicates a non-valid country or non-valid dimension.</description> 
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="46" y="37">
+         <workflowInputPort name="country"/>
+         <workflowInputPort name="dimension"/>
+      </workflowInputList>
+      <network output="node_628" x="379" y="239">
+         <processor id="node_628" x="245" y="84">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.HofstedeIndex</config>
+            </function>
+            <inputPort iterate="false" name="country">
+               <source workflowInputPort="country"/>
+            </inputPort>
+            <inputPort iterate="false" name="dimension">
+               <source workflowInputPort="dimension"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

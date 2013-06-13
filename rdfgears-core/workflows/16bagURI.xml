@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>16bagURI</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_46" x="748" y="561">
+         <processor id="node_46" x="802" y="379">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_45"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_45"/>
+            </inputPort>
+         </processor>
+         <processor id="node_45" x="809" y="256">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_44"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_44"/>
+            </inputPort>
+         </processor>
+         <processor id="node_44" x="788" y="140">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_29"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_30"/>
+            </inputPort>
+         </processor>
+         <processor id="node_29" x="598" y="78">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_25"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_26"/>
+            </inputPort>
+         </processor>
+         <processor id="node_25" x="418" y="52">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_24"/>
+            </inputPort>
+         </processor>
+         <processor id="node_24" x="188" y="190">
+            <function type="constant">
+               <config param="value">&lt;http://dbpedia.org/&gt;</config>
+            </function>
+         </processor>
+         <processor id="node_26" x="415" y="142">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_24"/>
+            </inputPort>
+         </processor>
+         <processor id="node_30" x="608" y="251">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_27"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_28"/>
+            </inputPort>
+         </processor>
+         <processor id="node_27" x="421" y="225">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_24"/>
+            </inputPort>
+         </processor>
+         <processor id="node_28" x="420" y="320">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_24"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

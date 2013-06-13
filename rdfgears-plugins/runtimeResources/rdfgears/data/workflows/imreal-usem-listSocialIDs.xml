@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-listSocialIDs</id>
+	  <name>listSocialIDs</name>
+	  <category>imreal-usem</category>
+      <description>Given a UUID, the service lists all social Web IDs associated with that UUID.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="49" y="65">
+         <workflowInputPort name="UUID"/>
+      </workflowInputList>
+      <network output="node_628" x="379" y="239">
+         <processor id="node_628" x="245" y="84">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.uuid.ListSocialIDsFunction</config>
+            </function>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

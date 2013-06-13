@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="record union" category="Record functions">
+<description>Combine two records</description>
+<inputs>
+<function type="record-union"/> 
+<data name="r1" iterate="false" label="record 1">
+<type>
+<etuple>
+</etuple>
+</type>
+</data>
+<data name="r2" iterate="false" label="record 2">
+<type>
+<etuple>
+</etuple>
+</type>
+</data>
+</inputs> 
+<output> 
+<type>
+<var name="output"/>
+</type>
+</output>
+</processor>

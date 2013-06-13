@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="Group a bag of record" category="Bag functions">
+<description>Group a bag of records by a given record-field</description>
+<inputs>
+<function type="bag-groupby">
+<param name="groupByField" type="Fields" label="Record Fields"/>
+</function>
+<data name="bag" label="Bag" iterate="false">
+	<type>
+		<bag>
+			<etuple></etuple>
+		</bag>
+	</type>
+</data> 
+</inputs>
+<output>
+<type>
+<bag>
+<var name="something"/>
+</bag>
+</type>
+</output>
+</processor>
+

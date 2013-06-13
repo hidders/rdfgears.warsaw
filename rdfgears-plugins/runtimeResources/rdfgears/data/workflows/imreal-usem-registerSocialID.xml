@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-registerSocialID</id>
+	  <name>registerSocialID</name>
+	  <category>imreal-usem</category>
+      <description>Given a UUID and a social Web ID (as well as the ID type, e.g. "Twitter"), the service stores the social ID in the user profile of the UUID user.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="48" y="45">
+         <workflowInputPort name="UUID"/>
+         <workflowInputPort name="WebID"/>
+         <workflowInputPort name="Type"/>
+      </workflowInputList>
+      <network output="node_628" x="379" y="239">
+         <processor id="node_628" x="244" y="83">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.uuid.RegisterSocialIDFunction</config>
+            </function>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+            <inputPort iterate="false" name="webid">
+               <source workflowInputPort="WebID"/>
+            </inputPort>
+            <inputPort iterate="false" name="type">
+               <source workflowInputPort="Type"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

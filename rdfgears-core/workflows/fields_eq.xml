@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>fields_eq</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="8" y="107">
+         <workflowInputPort name="record"/>
+      </workflowInputList>
+      <network output="node_99" x="450" y="450">
+         <processor id="node_99" x="452" y="88">
+            <function type="comparator">
+               <config param="operator">OP_EQUAL</config>
+            </function>
+            <inputPort iterate="false" name="a">
+               <source processor="node_97"/>
+            </inputPort>
+            <inputPort iterate="false" name="b">
+               <source processor="node_98"/>
+            </inputPort>
+         </processor>
+         <processor id="node_97" x="239" y="57">
+            <function type="record-project">
+               <config param="projectField">gene1</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="record"/>
+            </inputPort>
+         </processor>
+         <processor id="node_98" x="238" y="181">
+            <function type="record-project">
+               <config param="projectField">gene2</config>
+            </function>
+            <inputPort iterate="false" name="record">
+               <source workflowInputPort="record"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

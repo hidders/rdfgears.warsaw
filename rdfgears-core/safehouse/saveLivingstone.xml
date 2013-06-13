@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>saveLivingstone</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="16" y="13">
+         <workflowInputPort name="input1"/>
+         <workflowInputPort name="input0"/>
+      </workflowInputList>
+      <network output="node_24" x="564" y="394">
+         <processor id="node_24" x="564" y="258">
+            <function type="sparql">
+               <config param="bindVariables">g;</config>
+               <config param="query">PREFIX ds: &lt;http://www4.wiwiss.fu-berlin.de/diseasome/resource/diseasome/&gt;
+SELECT DISTINCT ?drug WHERE {
+  GRAPH ?g {
+     ?disease ds:possibleDrug ?drug.
+  }
+}</config>
+            </function>
+            <inputPort iterate="false" name="g">
+               <source processor="node_71"/>
+            </inputPort>
+         </processor>
+         <processor id="node_71" x="495" y="50">
+            <function type="bag-flatten"/>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_5"/>
+            </inputPort>
+         </processor>
+         <processor id="node_5" x="345" y="44">
+            <function type="filter">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.NotNull</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_47"/>
+            </inputPort>
+         </processor>
+         <processor id="node_47" x="193" y="44">
+            <function type="custom-java">
+               <config param="implementation">workflow:closeSameAs</config>
+            </function>
+            <inputPort iterate="true" name="sameAsPair">
+               <source processor="node_6"/>
+            </inputPort>
+         </processor>
+         <processor id="node_6" x="73" y="226">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbpedia.org/sparql</config>
+               <config param="query">PREFIX dbprop: &lt;http://dbpedia.org/property/&gt; 
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; 
+PREFIX dbpedia: &lt;http://dbpedia.org/ontology/&gt; 
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt; 
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; 
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt; 
+SELECT DISTINCT ?disease ?sameDisease 
+WHERE { 
+#        ?person a dbpedia:Person. 
+#        ?person foaf:name ?personName. 
+#        FILTER(str(?personName)="David Livingstone"). 
+#        ?person dbpedia:deathCause ?disease. 
+#        ?disease rdfs:label ?label.
+          ?disease owl:sameAs ?sameDisease.
+          FILTER(?disease = &lt;http://dbpedia.org/resource/Malaria&gt;)  
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

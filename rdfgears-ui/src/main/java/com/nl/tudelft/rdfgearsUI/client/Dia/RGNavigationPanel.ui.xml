@@ -1,0 +1,77 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+		.naviPanel{
+			position:absolute;
+			background: white;
+			left:0;
+			top:0;
+			width:250px;
+			height:100%;
+			border-right: 1px solid #E5E9EC;
+			-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+			-moz-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+			box-shadow: 0 0 4px rgba(0,0,0,0.2);
+			z-index:10001;
+		}
+		.headerContainer{
+			background-color:white;
+			height:30px;
+			width:100%;
+		}
+		.slider{
+			position:absolute;
+			width:20px;
+			height:20px;
+			background-image: url('images/left-grey.png');
+			top:5px;
+			right:5px;
+		}
+		.panelHeader{
+			margin-left:20px;
+			margin-top:5px;
+			padding-left:10px;
+			font-weight:bold;
+		}
+	/*	.searchBoxContainer{
+			position:absolute;
+			top:30px;
+			left: 0;
+			right: 0;
+			padding-left: 5px;
+			height:30px;
+			border-top: 1px solid #E5E9EC;
+			background:white;
+		}
+	*/
+		.content{
+			position:absolute;
+			top:30px;
+			bottom:0px;
+			left: 0;
+			right: 0;
+			padding-left: 5px;
+			overflow:hidden;
+			padding-top: 5px;
+			background:white;
+			border-top: 1px solid #E5E9EC;
+			vertical-align: top;
+		}
+	</ui:style>
+	<g:HTMLPanel styleName="{style.naviPanel}">
+		<g:HTMLPanel ui:field="headerContainer" styleName="{style.headerContainer}">
+			<g:Label styleName="{style.panelHeader}">Browse Workflows</g:Label>
+			<g:Label ui:field='slider' styleName="{style.slider}"></g:Label>
+		</g:HTMLPanel>	
+		<!-- 
+		<g:HTMLPanel styleName="{style.searchBoxContainer}">
+			<g:TextBox ui:field="searchBox"></g:TextBox>
+		</g:HTMLPanel>
+			 -->
+		<g:HTMLPanel styleName="{style.content}" ui:field="content"></g:HTMLPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

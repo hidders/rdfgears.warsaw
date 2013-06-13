@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>16bagRecordOne</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_46" x="748" y="561">
+         <processor id="node_46" x="802" y="379">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_45"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_45"/>
+            </inputPort>
+         </processor>
+         <processor id="node_45" x="809" y="256">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_44"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_44"/>
+            </inputPort>
+         </processor>
+         <processor id="node_44" x="788" y="140">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_62"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_62"/>
+            </inputPort>
+         </processor>
+         <processor id="node_62" x="496" y="371">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_61"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_61"/>
+            </inputPort>
+         </processor>
+         <processor id="node_61" x="492" y="240">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_60"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_60"/>
+            </inputPort>
+         </processor>
+         <processor id="node_60" x="489" y="123">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="node_26"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="node_26"/>
+            </inputPort>
+         </processor>
+         <processor id="node_26" x="334" y="141">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_10"/>
+            </inputPort>
+         </processor>
+         <processor id="node_10" x="190" y="201">
+            <function type="record-create">
+               <config param="fields">field_name;input0;input1;</config>
+            </function>
+            <inputPort iterate="false" name="field_name">
+               <source processor="node_204"/>
+            </inputPort>
+            <inputPort iterate="false" name="input0">
+               <source processor="node_204"/>
+            </inputPort>
+            <inputPort iterate="false" name="input1">
+               <source processor="node_204"/>
+            </inputPort>
+         </processor>
+         <processor id="node_204" x="10" y="229">
+            <function type="constant">
+               <config param="value">"apple"@en</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

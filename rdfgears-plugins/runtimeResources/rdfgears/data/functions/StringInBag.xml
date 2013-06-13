@@ -1,0 +1,18 @@
+<processor label="Is String in Bag" category="Custom Java">
+	<description>
+	This is a custom java function that determines if a particular string literal occurs in a bag.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.StringInBag"/>
+		</function>
+		<data iterate="false" name="bag" label="Bag">
+			<type><var name="bag"/></type>
+		</data>
+		<data iterate="false" name="searchString" label="Search String">
+			<type><var name="searchString"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

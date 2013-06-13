@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-registerUUID</id>
+	  <name>registerUUID</name>
+	  <category>imreal-usem</category>
+      <description>The service takes an email adress as input and returns a UUID - if the email is not already stored, a new UUID is generated, otherwise the existing one is returned.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="48" y="45">
+         <workflowInputPort name="Email"/>
+      </workflowInputList>
+      <network output="node_628" x="379" y="239">
+         <processor id="node_628" x="244" y="83">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.uuid.RegisterUUIDFunction</config>
+            </function>
+            <inputPort iterate="false" name="email">
+               <source workflowInputPort="Email"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>recordSimple</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_155" x="450" y="450">
+         <processor id="node_155" x="399" y="88">
+            <function type="record-create">
+               <config param="fields">a;b;c;</config>
+            </function>
+            <inputPort iterate="false" name="a">
+               <source processor="node_222"/>
+            </inputPort>
+            <inputPort iterate="false" name="b">
+               <source processor="node_222"/>
+            </inputPort>
+            <inputPort iterate="false" name="c">
+               <source processor="node_222"/>
+            </inputPort>
+         </processor>
+         <processor id="node_222" x="183" y="153">
+            <function type="constant">
+               <config param="value">"apple"@en</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

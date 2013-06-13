@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>c</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+         <workflowInputPort name="input0"/>
+      </workflowInputList>
+      <network output="node_27" x="450" y="450">
+         <processor id="node_27" x="372" y="78">
+            <function type="bag-contains"/>
+            <inputPort iterate="false" name="bag">
+               <source workflowInputPort="input1"/>
+            </inputPort>
+            <inputPort iterate="false" name="element">
+               <source workflowInputPort="input0"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>extractData/invert-links</id>
+      <description>Reduce the local dbpedia datasize, using construct query</description>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_80" x="347" y="342">
+         <processor id="node_80" x="140" y="64">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://localhost:2020/sparql</config>
+               <config param="query">CONSTRUCT {
+ 	?s &lt;http://dbpedia.org/ontology/director&gt; ?o.
+}
+#SELECT ?a ?t1 ?v0
+FROM &lt;file:Data/links.n3&gt; 
+WHERE {
+ 	?o &lt;http://dbpedia.org/ontology/director&gt; ?s.
+}</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>newWF</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_230" x="450" y="450">
+         <processor id="node_230" x="251" y="131">
+            <function type="custom-java">
+               <config param="implementation">workflow:recordSimple</config>
+            </function>
+            <inputPort iterate="false" name="input1"/>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

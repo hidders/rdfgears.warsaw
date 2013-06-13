@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>reg</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_22" x="450" y="450">
+         <processor id="node_22" x="586" y="130">
+            <function type="record-union"/>
+            <inputPort iterate="false" name="r1">
+               <source processor="node_21"/>
+            </inputPort>
+            <inputPort iterate="false" name="r2">
+               <source processor="node_20"/>
+            </inputPort>
+         </processor>
+         <processor id="node_21" x="392" y="112">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_16"/>
+            </inputPort>
+         </processor>
+         <processor id="node_16" x="168" y="119">
+            <function type="constant">
+               <config param="value">"apple"@en</config>
+            </function>
+         </processor>
+         <processor id="node_20" x="386" y="199">
+            <function type="bag-singleton"/>
+            <inputPort iterate="false" name="value">
+               <source processor="node_17"/>
+            </inputPort>
+         </processor>
+         <processor id="node_17" x="170" y="203">
+            <function type="constant">
+               <config param="value">"apple"@en</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

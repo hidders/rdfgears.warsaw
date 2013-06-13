@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>imreal-usem-setUserProfileEntry</id>
+	  <name>setUserProfileEntry</name>
+	  <category>imreal-usem</category>
+      <description>The service allows the pushing of user profile data to the storage system.</description>
+      <password>imreal</password>
+   </metadata>
+   <workflow>
+      <workflowInputList x="43" y="71">
+         <workflowInputPort name="UUID"/>
+         <workflowInputPort name="Topic"/>
+         <workflowInputPort name="Value"/>
+      </workflowInputList>
+      <network output="node_628" x="379" y="239">
+         <processor id="node_628" x="245" y="84">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.imreal.userprofile.SetUserProfileEntryFunction</config>
+            </function>
+            <inputPort iterate="false" name="uuid">
+               <source workflowInputPort="UUID"/>
+            </inputPort>
+            <inputPort iterate="false" name="topic">
+               <source workflowInputPort="Topic"/>
+            </inputPort>
+            <inputPort iterate="false" name="value">
+               <source workflowInputPort="Value"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

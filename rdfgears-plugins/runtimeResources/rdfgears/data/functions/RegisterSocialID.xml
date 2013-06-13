@@ -1,0 +1,21 @@
+<processor label="Register SocialID" category="Custom Java">
+	<description>
+	This is a custom java function that stores UUID into the database and links it to social IDs.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.uuid.RegisterSocialIDFunction"/>
+		</function>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+		<data iterate="false" name="webid" label="Webid">
+			<type><var name="webid"/></type>
+		</data>
+		<data iterate="false" name="type" label="Type">
+			<type><var name="type"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>saveLivingstone-complex3</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="41" y="408">
+         <workflowInputPort name="input1"/>
+         <workflowInputPort name="input0"/>
+      </workflowInputList>
+      <network output="proc_9" x="723" y="435">
+         <processor id="proc_9" x="795" y="272">
+            <function type="bag-union"/>
+            <inputPort iterate="false" name="bag1">
+               <source processor="proc_8"/>
+            </inputPort>
+            <inputPort iterate="false" name="bag2">
+               <source processor="proc_2"/>
+            </inputPort>
+         </processor>
+         <processor id="proc_8" x="633" y="239">
+            <function type="bag-flatten"/>
+            <inputPort iterate="false" name="bag">
+               <source processor="proc_7"/>
+            </inputPort>
+         </processor>
+         <processor id="proc_7" x="761" y="29">
+            <function type="filter">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.NotNull</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="proc_6"/>
+            </inputPort>
+         </processor>
+         <processor id="proc_6" x="570" y="44">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.FetchRDF</config>
+            </function>
+            <inputPort iterate="true" name="uri">
+               <source processor="proc_5"/>
+            </inputPort>
+         </processor>
+         <processor id="proc_5" x="449" y="49">
+            <function type="record-project">
+               <config param="projectField">same</config>
+            </function>
+            <inputPort iterate="true" name="record">
+               <source processor="proc_3"/>
+            </inputPort>
+         </processor>
+         <processor id="proc_3" x="232" y="8">
+            <function type="sparql">
+               <config param="bindVariables">thing;graph;</config>
+               <config param="query">PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;  SELECT ?same  WHERE {    GRAPH ?graph {      $thing owl:sameAs ?same.    } }</config>
+            </function>
+            <inputPort iterate="false" name="thing">
+               <source processor="proc_1"/>
+            </inputPort>
+            <inputPort iterate="false" name="graph">
+               <source processor="proc_2"/>
+            </inputPort>
+         </processor>
+         <processor id="proc_1" x="35" y="31">
+            <function type="constant">
+               <config param="value">&lt;http://dbpedia.org/resource/Malaria&gt;</config>
+            </function>
+         </processor>
+         <processor id="proc_2" x="81" y="190">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.FetchRDF</config>
+            </function>
+            <inputPort iterate="false" name="uri">
+               <source processor="proc_1"/>
+            </inputPort>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

@@ -1,0 +1,18 @@
+<processor label="Contains User Profile Entry" category="Custom Java">
+	<description>
+	This is a custom java function that checks whether a particular entry is in the DB.
+	</description>
+	<inputs>
+		<function type="custom-java"> 
+			<param name="implementation" value="nl.tudelft.rdfgears.rgl.function.imreal.userprofile.ContainsUserProfileEntryFunction"/>
+		</function>
+		<data iterate="false" name="uuid" label="UUID">
+			<type><var name="uuid"/></type>
+		</data>
+		<data iterate="false" name="topic" label="Topic">
+			<type><var name="topic"/></type>
+		</data>
+	</inputs> 
+	<output/>
+</processor>
+

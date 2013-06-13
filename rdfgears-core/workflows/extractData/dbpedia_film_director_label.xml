@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdfgears>
+   <metadata>
+      <id>extractData/dbpedia_film_director_label</id>
+      <description/>
+      <password/>
+   </metadata>
+   <workflow>
+      <workflowInputList x="10" y="100">
+         <workflowInputPort name="input1"/>
+      </workflowInputList>
+      <network output="node_28" x="347" y="342">
+         <processor id="node_28" x="434" y="217">
+            <function type="custom-java">
+               <config param="implementation">nl.tudelft.rdfgears.rgl.function.standard.BagToGraph</config>
+            </function>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_27"/>
+            </inputPort>
+         </processor>
+         <processor id="node_27" x="264" y="220">
+            <function type="bag-flatten"/>
+            <inputPort iterate="false" name="bag">
+               <source processor="node_230"/>
+            </inputPort>
+         </processor>
+         <processor id="node_230" x="379" y="88">
+            <function type="custom-java">
+               <config param="implementation">workflow:extractData/dbpedia_film_director_label_createrecords</config>
+            </function>
+            <inputPort iterate="true" name="solution">
+               <source processor="node_80"/>
+            </inputPort>
+         </processor>
+         <processor id="node_80" x="140" y="65">
+            <function type="sparql-endpoint">
+               <config param="endpoint">http://dbpedia.org/sparql</config>
+               <config param="query">SELECT ?a ?t1 ?v0
+FROM &lt;http://dbpedia.org&gt;
+WHERE {
+	?a &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Film&gt; .
+	OPTIONAL {
+		?a &lt;http://dbpedia.org/ontology/director&gt; ?t1 .
+		?t1 &lt;http://www.w3.org/2000/01/rdf-schema#label&gt; ?v0 .
+	}
+} OFFSET 140000 #OFFSET 158000</config>
+            </function>
+         </processor>
+      </network>
+   </workflow>
+</rdfgears>

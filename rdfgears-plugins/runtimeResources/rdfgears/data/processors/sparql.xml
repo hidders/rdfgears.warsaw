@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processor label="Local SPARQL" category="Querying">
+<description>Write SPARQL Query, bind the variables in the query to the input fields</description>
+<inputs>
+<function type="sparql"> 
+<param name="bindVariables" type="InputFields" label="Variables"/>
+<param name="query" label="Query" type="Query">
+<description>
+Write SPARQL Query
+</description>
+</param>
+</function> 
+</inputs> 
+<output> 
+<type>
+<var name="output"/>
+</type>
+</output>
+</processor>
